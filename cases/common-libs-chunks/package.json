@@ -6,6 +6,7 @@
     "wbuild": "NODE_ENV=production webpack build",
     "pbuild": "NODE_ENV=production parcel build"
   },
+  "source": "src/index.js",
   "dependencies": {
     "@babel/runtime": "^7.12.13",
     "@material-ui/core": "^4.11.3",
@@ -29,6 +30,8 @@
     "webpack-cli": "^4.5.0"
   },
   "devDependencies": {
-    "webpack": "*"
+    "webpack": "5.75.0",
+    "parcel": "^2.8.3",
+    "@rspack/cli": "0.0.0-82fa99600-20230219083939"
   }
 }

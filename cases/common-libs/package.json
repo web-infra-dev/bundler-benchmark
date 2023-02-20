@@ -29,6 +29,8 @@
     "webpack-cli": "^4.5.0"
   },
   "devDependencies": {
-    "webpack": "*"
+    "webpack": "5.75.0",
+    "parcel": "^2.8.3",
+    "@rspack/cli": "0.0.0-82fa99600-20230219083939"
   }
 }
