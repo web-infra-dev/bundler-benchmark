@@ -1,6 +1,11 @@
 {
   "name": "common-libs",
   "dependenciesDate": "2021-02-15",
+  "scripts": {
+    "rbuild": "NODE_ENV=production rspack build -c rspack.config.js",
+    "wbuild": "NODE_ENV=production webpack build",
+    "pbuild": "NODE_ENV=production parcel build"
+  },
   "dependencies": {
     "@babel/runtime": "^7.12.13",
     "@material-ui/core": "^4.11.3",

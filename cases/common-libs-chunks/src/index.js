@@ -15,7 +15,6 @@ import("react-dom");
 import("redux");
 import("rxjs");
 import("underscore");
-import("underscore/modules");
 import("uuid");
 import("vue");
 import("zone.js");
