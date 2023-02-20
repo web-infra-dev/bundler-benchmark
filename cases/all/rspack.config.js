@@ -8,12 +8,14 @@ module.exports = {
 			// rome: resolve(__dirname, "src/rome/internal/virtual-packages/rome"),
 		},
 	},
-	output: {
-		hashFunction: "xxhash64",
+	output: {},
+	builtins: { treeShaking: true, progress: {}, minify: true },
+	stats: {
+		warnings: false,
 	},
 	optimization: {
-		sideEffects: false,
+		sideEffects: true,
+		// splitChunks: false
 	},
-	module: {
-	},
+	module: {},
 };

@@ -1,43 +1,61 @@
 const { resolve } = require("path");
 /** @type {import("webpack").Configuration} */
 module.exports = {
+	mode: 'production',
 	resolve: {
 		extensions: [".ts", ".tsx", ".js"],
 		alias: {
 			"@internal": resolve(__dirname, "src/rome/internal"),
 			// rome: resolve(__dirname, "src/rome/internal/virtual-packages/rome"),
 		},
+		fallback: {
+			"inspector": false,
+			"crypto": false,
+			"fs": false,
+			"os": false,
+			"child_process": false,
+			"module": false,
+			"vm": false,
+			"net": false,
+			"zlib": false,
+			"url": false,
+			"stream": false,
+			"http": false,
+			"https": false,
+			"readline": false,
+			"child_process": false,
+			"tty": false
+
+		}
 	},
 	output: {
 		hashFunction: "xxhash64",
 	},
 	optimization: {
-		sideEffects: false,
+		sideEffects: true,
+		concatenateModules: false
 	},
 	experiments: {
 		cacheUnaffected: true,
 	},
 	module: {
-		unsafeCache: true,
 		rules: [
+			// {
+			// 	// Match js, jsx, ts & tsx files
+			// 	test: /\.[jt]sx?$/,
+			// 	loader: "esbuild-loader",
+			// 	options: {
+			// 		// JavaScript version to compile to
+			// 		target: "es2015",
+			// 	},
+			// },
 			{
-				test: /\.tsx?$/,
-				loader: "ts-loader",
-				options: { transpileOnly: true },
+				test: /\.ts$/,
+				exclude: /(node_modules|bower_components)/,
+				use: {
+					loader: 'esbuild-loader',
+				},
 			},
 		],
 	},
 };
-if (require("webpack").version.startsWith("5")) {
-	module.exports.ignoreWarnings = [
-		{
-			message: /export.+was not found|only default export is available soon/,
-		},
-	];
-}
-
-module.exports.plugins = module.exports.plugins || [];
-module.exports.plugins.push(new (require("../../lib/build-plugin.cjs"))());
-
-module.exports.plugins = module.exports.plugins || [];
-module.exports.plugins.push(new (require("../../lib/build-plugin.cjs"))());

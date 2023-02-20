@@ -1,7 +1,8 @@
 {
   "name": "rome",
   "scripts": {
-    "bench:setup": "ncp ../esbuild-three/src/base src/copy1 --clobber && ncp ../esbuild-three/src/base src/copy2 --clobber && ncp ../esbuild-three/src/base src/copy3 --clobber && ncp ../esbuild-three/src/base src/copy4 --clobber && ncp ../esbuild-three/src/base src/copy5 --clobber && ncp ../esbuild-three/src/base src/copy6 --clobber && ncp ../esbuild-three/src/base src/copy7 --clobber && ncp ../esbuild-three/src/base src/copy8 --clobber && ncp ../esbuild-three/src/base src/copy9 --clobber && ncp ../esbuild-three/src/base src/copy10 --clobber && node -e \"try { require('fs').statSync('src/rome') } catch { process.exitCode = 1 }\" || git clone --single-branch --branch v10.0.4-beta https://github.com/romejs/rome src/rome"
+    "bench:setup": "ncp ../esbuild-three/src/base src/copy1 --clobber && ncp ../esbuild-three/src/base src/copy2 --clobber && ncp ../esbuild-three/src/base src/copy3 --clobber && ncp ../esbuild-three/src/base src/copy4 --clobber && ncp ../esbuild-three/src/base src/copy5 --clobber && ncp ../esbuild-three/src/base src/copy6 --clobber && ncp ../esbuild-three/src/base src/copy7 --clobber && ncp ../esbuild-three/src/base src/copy8 --clobber && ncp ../esbuild-three/src/base src/copy9 --clobber && ncp ../esbuild-three/src/base src/copy10 --clobber && node -e \"try { require('fs').statSync('src/rome') } catch { process.exitCode = 1 }\" || git clone --single-branch --branch v10.0.4-beta https://github.com/romejs/rome src/rome",
+    "rbuild": "rspack build -c rspack.config.js"
   },
   "dependenciesDate": "2021-05-05",
   "dependencies": {
@@ -29,10 +30,13 @@
     "underscore": "^1.12.0",
     "uuid": "^8.3.2",
     "vue": "^2.6.12",
-    "zone.js": "^0.11.3",
-    "webpack-cli": "^4.5.0"
+    "webpack-cli": "^4.5.0",
+    "zone.js": "^0.11.3"
   },
   "devDependencies": {
+    "@swc/core": "^1.3.35",
+    "swc-loader": "^0.2.3",
+    "esbuild-loader": "^3.0.0",
     "ts-loader": "*",
     "typescript": "*",
     "webpack": "*"
