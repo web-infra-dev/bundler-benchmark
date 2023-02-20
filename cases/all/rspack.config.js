@@ -10,14 +10,13 @@ module.exports = {
 			// rome: resolve(__dirname, "src/rome/internal/virtual-packages/rome"),
 		},
 	},
+	devtool: false,
 	output: {},
 	builtins: { treeShaking: isProd, progress: {}, minify: isProd },
 	stats: {
 		warnings: false,
 	},
 	optimization: {
-		sideEffects: false,
-		// splitChunks: false
 	},
 	module: {},
 };

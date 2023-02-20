@@ -1,8 +1,8 @@
 const { resolve } = require("path");
-const isProd = process.env.NODE_ENV === 'production'
+const isProd = process.env.NODE_ENV === "production";
 /** @type {import("webpack").Configuration} */
 module.exports = {
-	mode: isProd ? 'production' : 'development',
+	mode: isProd ? "production" : "development",
 	resolve: {
 		extensions: [".ts", ".tsx", ".js"],
 		alias: {
@@ -10,30 +10,28 @@ module.exports = {
 			// rome: resolve(__dirname, "src/rome/internal/virtual-packages/rome"),
 		},
 		fallback: {
-			"inspector": false,
-			"crypto": false,
-			"fs": false,
-			"os": false,
-			"child_process": false,
-			"module": false,
-			"vm": false,
-			"net": false,
-			"zlib": false,
-			"url": false,
-			"stream": false,
-			"http": false,
-			"https": false,
-			"readline": false,
-			"child_process": false,
-			"tty": false
-
-		}
+			inspector: false,
+			crypto: false,
+			fs: false,
+			os: false,
+			child_process: false,
+			module: false,
+			vm: false,
+			net: false,
+			zlib: false,
+			url: false,
+			stream: false,
+			http: false,
+			https: false,
+			readline: false,
+			child_process: false,
+			tty: false,
+		},
 	},
 	output: {
 		hashFunction: "xxhash64",
 	},
-	optimization: {
-	},
+	optimization: {},
 	experiments: {
 		cacheUnaffected: true,
 	},
@@ -43,7 +41,7 @@ module.exports = {
 				test: /\.ts$/,
 				exclude: /(node_modules|bower_components)/,
 				use: {
-					loader: 'esbuild-loader',
+					loader: "esbuild-loader",
 				},
 			},
 		],
