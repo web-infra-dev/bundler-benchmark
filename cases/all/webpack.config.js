@@ -1,7 +1,8 @@
 const { resolve } = require("path");
+const isProd = process.env.NODE_ENV === 'production'
 /** @type {import("webpack").Configuration} */
 module.exports = {
-	mode: 'production',
+	mode: isProd ? 'production' : 'development',
 	resolve: {
 		extensions: [".ts", ".tsx", ".js"],
 		alias: {
@@ -32,23 +33,12 @@ module.exports = {
 		hashFunction: "xxhash64",
 	},
 	optimization: {
-		sideEffects: true,
-		concatenateModules: false
 	},
 	experiments: {
 		cacheUnaffected: true,
 	},
 	module: {
 		rules: [
-			// {
-			// 	// Match js, jsx, ts & tsx files
-			// 	test: /\.[jt]sx?$/,
-			// 	loader: "esbuild-loader",
-			// 	options: {
-			// 		// JavaScript version to compile to
-			// 		target: "es2015",
-			// 	},
-			// },
 			{
 				test: /\.ts$/,
 				exclude: /(node_modules|bower_components)/,

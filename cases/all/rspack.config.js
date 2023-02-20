@@ -1,6 +1,8 @@
 const { resolve } = require("path");
+const isProd = process.env.NODE_ENV === "production";
 /** @type {import("webpack").Configuration} */
 module.exports = {
+	mode: isProd ? "production" : "development",
 	resolve: {
 		extensions: [".ts", ".tsx", ".js"],
 		alias: {
@@ -9,12 +11,12 @@ module.exports = {
 		},
 	},
 	output: {},
-	builtins: { treeShaking: true, progress: {}, minify: true },
+	builtins: { treeShaking: isProd, progress: {}, minify: isProd },
 	stats: {
 		warnings: false,
 	},
 	optimization: {
-		sideEffects: true,
+		sideEffects: false,
 		// splitChunks: false
 	},
 	module: {},
