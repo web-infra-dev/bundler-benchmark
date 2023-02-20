@@ -10,3 +10,5 @@ cases/**/yarn.lock
 .gh-pages
 *.cpuprofile
 *.heapprofile
+
+.parcel-cache
