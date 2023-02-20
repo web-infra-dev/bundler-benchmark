@@ -1,6 +1,11 @@
 {
   "name": "atlaskit-editor",
   "dependenciesDate": "2021-05-05",
+  "scripts": {
+    "rbuild": "NODE_ENV=production rspack build -c rspack.config.js",
+    "wbuild": "NODE_ENV=production webpack build",
+    "pbuild": "NODE_ENV=production parcel build"
+  },
   "dependencies": {
     "@atlaskit/editor-core": "^120.1.0",
     "@atlaskit/media-core": "^31.1.0",
@@ -12,6 +17,6 @@
     "webpack-cli": "^4.5.0"
   },
   "devDependencies": {
-    "webpack": "*"
+    "webpack": "5.75.0"
   }
 }
