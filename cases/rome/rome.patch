@@ -1,0 +1,19 @@
+diff --git a/internal/cli-layout/ansi.ts b/internal/cli-layout/ansi.ts
+index d70a9366e..356a8eca3 100644
+--- a/internal/cli-layout/ansi.ts
++++ b/internal/cli-layout/ansi.ts
+@@ -120,10 +120,10 @@ export const formatAnsi = {
+ 	},
+ 	fileHyperlink(name: string, filename: string): string {
+ 		let href = "file://";
+-		const {HOSTNAME} = process.env;
+-		if (HOSTNAME != null) {
+-			href += `${HOSTNAME}/`;
+-		}
++		// const {HOSTNAME} = process.env;
++		// if (HOSTNAME != null) {
++		// 	href += `${HOSTNAME}/`;
++		// }
+ 		href += filename;
+ 		return formatAnsi.hyperlink(name, href);
+ 	},
