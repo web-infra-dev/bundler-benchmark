@@ -9,6 +9,7 @@ module.exports = {
 	entry: {
 		main: resolve(__dirname, "./src/index.js"),
 	},
+	// devtool: false,
 	output: {},
 	builtins: { treeShaking: isProd, progress: {}, minify: isProd },
 	stats: {

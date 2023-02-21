@@ -3,4 +3,5 @@ module.exports = {
 		library: "THREE",
 		libraryTarget: "commonjs-module",
 	},
+	// devtool: "source-map"
 };

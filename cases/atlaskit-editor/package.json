@@ -6,6 +6,27 @@
     "wbuild": "NODE_ENV=production webpack build",
     "pbuild": "NODE_ENV=production parcel build"
   },
+  "source": "src/index.js",
+  "alias": {
+    "punycode": false,
+    "inspector": false,
+    "crypto": false,
+    "fs": false,
+    "os": false,
+    "module": false,
+    "vm": false,
+    "net": false,
+    "zlib": false,
+    "url": false,
+    "stream": false,
+    "http": false,
+    "https": false,
+    "readline": false,
+    "child_process": false,
+    "tty": false,
+    "process": false,
+    "buffer": false
+  },
   "dependencies": {
     "@atlaskit/editor-core": "^120.1.0",
     "@atlaskit/media-core": "^31.1.0",
