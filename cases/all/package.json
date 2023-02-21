@@ -9,6 +9,7 @@
   "source": "src/index.js",
   "alias": {
     "@internal/*": "./src/rome/internal/$1",
+    "punycode": false,
     "inspector": false,
     "crypto": false,
     "fs": false,
