@@ -43,7 +43,8 @@
     "bench:setup": "node -e \"try { require('fs').statSync('src/rome') } catch { process.exitCode = 1 }\" || git clone --single-branch --branch v10.0.4-beta https://github.com/romejs/rome src/rome",
     "rbuild": "NODE_ENV=production rspack build -c rspack.config.js",
     "wbuild": "NODE_ENV=production webpack build",
-    "pbuild": "NODE_ENV=production parcel build"
+    "pbuild": "NODE_ENV=production parcel build",
+    "patch:rome": "cd ./src/rome && git apply ../../rome.patch"
   },
   "rebuildChangeFile": "src/index.ts"
 }
