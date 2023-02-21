@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@parcel/config-default": "^2.8.3",
+    "@parcel/optimizer-esbuild": "^2.8.3",
     "@parcel/optimizer-swc": "^2.8.3",
     "@parcel/resolver-default": "^2.8.3",
     "@rspack/cli": "0.0.0-82fa99600-20230219083939",
