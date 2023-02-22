@@ -9,6 +9,7 @@ specifiers:
   '@material-ui/icons': ^4.11.3
   '@material-ui/lab': ^4.0.0-alpha.61
   '@parcel/config-default': ^2.8.3
+  '@parcel/optimizer-swc': ^2.8.3
   '@parcel/resolver-default': ^2.8.3
   '@rspack/cli': 0.0.0-82fa99600-20230219083939
   '@swc/core': ^1.3.36
@@ -23,6 +24,7 @@ specifiers:
   moment: ^2.29.4
   ncp: ^2.0.0
   parcel: ^2.8.3
+  process: ^0.11.10
   react: ^17.0.2
   react-dom: ^17.0.2
   react-intl: ^2.9.0
@@ -66,11 +68,13 @@ dependencies:
 
 devDependencies:
   '@parcel/config-default': 2.8.3
+  '@parcel/optimizer-swc': 2.8.3
   '@parcel/resolver-default': 2.8.3
   '@rspack/cli': 0.0.0-82fa99600-20230219083939_pvdyckljw6ewojflso6piqvoli
   '@swc/core': 1.3.36
   esbuild-loader: 3.0.0_webpack@5.75.0
   parcel: 2.8.3
+  process: 0.11.10
   swc-loader: 0.2.3_wumblt6f7l27pkvqm54p67bbsa
   webpack: 5.75.0_pvdyckljw6ewojflso6piqvoli
 
@@ -2572,6 +2576,19 @@ packages:
       '@parcel/plugin': 2.8.3
       '@parcel/utils': 2.8.3
       svgo: 2.8.0
+    transitivePeerDependencies:
+      - '@parcel/core'
+    dev: true
+
+  /@parcel/optimizer-swc/2.8.3:
+    resolution: {integrity: sha512-ibV4Y1kYzHw6YM736Iu7mfHSPRev5aihAVlYHycdiCAePrdaNHNTnmcHjep60PWCcsr70j8VHA4p0vsYZCEw7A==}
+    engines: {node: '>= 12.0.0', parcel: ^2.8.3}
+    dependencies:
+      '@parcel/plugin': 2.8.3
+      '@parcel/source-map': 2.1.1
+      '@parcel/utils': 2.8.3
+      '@swc/core': 1.3.36
+      nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -6589,6 +6606,11 @@ packages:
 
   /process-nextick-args/2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
+    dev: true
+
+  /process/0.11.10:
+    resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==}
+    engines: {node: '>= 0.6.0'}
     dev: true
 
   /promise/7.3.1:
