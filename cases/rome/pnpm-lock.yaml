@@ -9,6 +9,7 @@ specifiers:
   '@swc/core': ^1.3.35
   esbuild-loader: ^3.0.0
   parcel: ^2.8.3
+  process: ^0.11.10
   swc-loader: ^0.2.3
   ts-loader: '*'
   typescript: '*'
@@ -27,6 +28,7 @@ devDependencies:
   '@swc/core': 1.3.36
   esbuild-loader: 3.0.0_webpack@5.75.0
   parcel: 2.8.3
+  process: 0.11.10
   swc-loader: 0.2.3_wumblt6f7l27pkvqm54p67bbsa
   ts-loader: 9.4.2_hhrrucqyg4eysmfpujvov2ym5u
   typescript: 4.9.5
@@ -3780,6 +3782,11 @@ packages:
 
   /process-nextick-args/2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
+    dev: true
+
+  /process/0.11.10:
+    resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==}
+    engines: {node: '>= 0.6.0'}
     dev: true
 
   /proxy-addr/2.0.7:

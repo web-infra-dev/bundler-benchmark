@@ -21,7 +21,6 @@
     "readline": false,
     "child_process": false,
     "tty": false,
-    "process": false,
     "buffer": false
   },
   "devDependencies": {
@@ -33,6 +32,7 @@
     "@swc/core": "^1.3.35",
     "esbuild-loader": "^3.0.0",
     "parcel": "^2.8.3",
+    "process": "^0.11.10",
     "swc-loader": "^0.2.3",
     "ts-loader": "*",
     "typescript": "*",
