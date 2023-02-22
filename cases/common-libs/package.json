@@ -4,7 +4,7 @@
   "scripts": {
     "rbuild": "NODE_ENV=production rspack build -c rspack.config.js",
     "wbuild": "NODE_ENV=production webpack build",
-    "pbuild": "NODE_ENV=production parcel build"
+    "pbuild": "NODE_ENV=production parcel build --no-cache"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.13",

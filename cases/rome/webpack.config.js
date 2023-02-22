@@ -1,4 +1,5 @@
 const { resolve } = require("path");
+const TerserPlugin = require('terser-webpack-plugin')
 /** @type {import("webpack").Configuration} */
 module.exports = {
 	entry: "./src/index.ts",
@@ -8,21 +9,47 @@ module.exports = {
 			"@internal": resolve(__dirname, "src/rome/internal"),
 			// rome: resolve(__dirname, "src/rome/internal/virtual-packages/rome"),
 		},
+		fallback: {
+			inspector: false,
+			crypto: false,
+			fs: false,
+			os: false,
+			child_process: false,
+			module: false,
+			vm: false,
+			net: false,
+			zlib: false,
+			url: false,
+			stream: false,
+			http: false,
+			https: false,
+			readline: false,
+			child_process: false,
+			tty: false,
+
+		}
+	},
+	devtool: 'source-map',
+	optimization: {
+		minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        minify: TerserPlugin.swcMinify,
+        // `terserOptions` options will be passed to `swc` (`@swc/core`)
+        // Link to options - https://swc.rs/docs/config-js-minify
+        terserOptions: {},
+      }),
+    ],
 	},
 	module: {
 		rules: [
 			{
-				test: /\.tsx?$/,
-				loader: "ts-loader",
-				options: { transpileOnly: true },
+				test: /\.ts$/,
+				exclude: /(node_modules|bower_components)/,
+				use: {
+					loader: "esbuild-loader",
+				},
 			},
 		],
 	},
 };
-if (require("webpack").version.startsWith("5")) {
-	module.exports.ignoreWarnings = [
-		{
-			message: /export.+was not found/,
-		},
-	];
-}

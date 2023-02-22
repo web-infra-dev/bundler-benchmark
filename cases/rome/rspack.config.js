@@ -10,7 +10,6 @@ module.exports = {
 			// rome: resolve(__dirname, "src/rome/internal/virtual-packages/rome"),
 		},
 	},
-	// devtool: false,
 	output: {},
 	entry: {
 		"main": resolve(__dirname, "./src/index.ts")

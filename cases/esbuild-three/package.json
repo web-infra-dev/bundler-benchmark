@@ -4,7 +4,7 @@
     "bench:setup": "ncp src/base src/copy1 --clobber && ncp src/base src/copy2 --clobber && ncp src/base src/copy3 --clobber && ncp src/base src/copy4 --clobber && ncp src/base src/copy5 --clobber && ncp src/base src/copy6 --clobber && ncp src/base src/copy7 --clobber && ncp src/base src/copy8 --clobber && ncp src/base src/copy9 --clobber && ncp src/base src/copy10 --clobber",
     "rbuild": "NODE_ENV=production rspack build -c rspack.config.js",
     "wbuild": "NODE_ENV=production webpack build",
-    "pbuild": "NODE_ENV=production parcel build"
+    "pbuild": "NODE_ENV=production parcel build --no-cache"
   },
   "source": "src/index.js",
   "dependenciesDate": "2021-02-15",

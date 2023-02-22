@@ -11,6 +11,7 @@ specifiers:
   parcel: ^2.8.3
   process: ^0.11.10
   swc-loader: ^0.2.3
+  terser-webpack-plugin: ^5.3.6
   ts-loader: '*'
   typescript: '*'
   webpack: 5.75.0
@@ -30,6 +31,7 @@ devDependencies:
   parcel: 2.8.3
   process: 0.11.10
   swc-loader: 0.2.3_wumblt6f7l27pkvqm54p67bbsa
+  terser-webpack-plugin: 5.3.6_wumblt6f7l27pkvqm54p67bbsa
   ts-loader: 9.4.2_hhrrucqyg4eysmfpujvov2ym5u
   typescript: 4.9.5
   webpack: 5.75.0_pvdyckljw6ewojflso6piqvoli
