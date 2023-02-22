@@ -4,6 +4,7 @@
   "scripts": {
     "rbuild": "NODE_ENV=production rspack build -c rspack.config.js",
     "wbuild": "NODE_ENV=production webpack build",
+    "wdev": "NODE_ENV=development webpack build",
     "pbuild": "NODE_ENV=production parcel build --no-cache",
     "build:bench": "hyperfine 'pnpm rbuild' 'pnpm wbuild' 'pnpm pbuild' --export-markdown ./test.md"
   },
