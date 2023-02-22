@@ -13,8 +13,12 @@
     "webpack-cli": "^4.5.0"
   },
   "devDependencies": {
-    "webpack": "5.75.0",
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/optimizer-swc": "^2.8.3",
+    "@rspack/cli": "0.0.0-82fa99600-20230219083939",
+    "@swc/core": "^1.3.36",
     "parcel": "^2.8.3",
-    "@rspack/cli": "0.0.0-82fa99600-20230219083939"
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "5.75.0"
   }
 }
