@@ -7,30 +7,30 @@
     "pbuild": "NODE_ENV=production parcel build --no-cache"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12.13",
-    "@material-ui/core": "^4.11.3",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/lab": "^4.0.0-alpha.57",
-    "acorn": "^8.0.5",
-    "classnames": "^2.2.6",
-    "date-fns": "^2.17.0",
-    "jquery": "^3.5.1",
-    "lodash": "^4.17.20",
-    "lodash-es": "^4.17.20",
-    "moment": "^2.29.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "redux": "^4.0.5",
-    "rxjs": "^6.6.3",
-    "underscore": "^1.12.0",
+    "@babel/runtime": "^7.21.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "acorn": "^8.8.2",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.29.3",
+    "jquery": "^3.6.3",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "moment": "^2.29.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "redux": "^4.2.1",
+    "rxjs": "^6.6.7",
+    "underscore": "^1.13.6",
     "uuid": "^8.3.2",
-    "vue": "^2.6.12",
-    "zone.js": "^0.11.3",
-    "webpack-cli": "^4.5.0"
+    "vue": "^2.7.14",
+    "webpack-cli": "^4.10.0",
+    "zone.js": "^0.11.8"
   },
   "devDependencies": {
-    "webpack": "5.75.0",
+    "@rspack/cli": "0.0.0-82fa99600-20230219083939",
     "parcel": "^2.8.3",
-    "@rspack/cli": "0.0.0-82fa99600-20230219083939"
+    "webpack": "5.75.0"
   }
 }
