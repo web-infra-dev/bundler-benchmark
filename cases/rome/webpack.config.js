@@ -1,5 +1,6 @@
 const { resolve } = require("path");
 const TerserPlugin = require('terser-webpack-plugin')
+const prod = process.env.NODE_ENV === 'production'
 /** @type {import("webpack").Configuration} */
 module.exports = {
 	entry: "./src/index.ts",
@@ -29,9 +30,9 @@ module.exports = {
 
 		}
 	},
-	devtool: 'source-map',
+	devtool: prod && 'source-map',
 	optimization: {
-		minimize: true,
+		minimize: prod,
     minimizer: [
       new TerserPlugin({
         minify: TerserPlugin.swcMinify,
