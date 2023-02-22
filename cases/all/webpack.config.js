@@ -1,4 +1,5 @@
 const { resolve } = require("path");
+const TerserPlugin = require('terser-webpack-plugin')
 const isProd = process.env.NODE_ENV === "production";
 /** @type {import("webpack").Configuration} */
 module.exports = {
@@ -28,10 +29,17 @@ module.exports = {
 			tty: false,
 		},
 	},
-	output: {
-		hashFunction: "xxhash64",
+	optimization: {
+		minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        minify: TerserPlugin.swcMinify,
+        // `terserOptions` options will be passed to `swc` (`@swc/core`)
+        // Link to options - https://swc.rs/docs/config-js-minify
+        terserOptions: {},
+      }),
+    ],
 	},
-	optimization: {},
 	experiments: {
 		cacheUnaffected: true,
 	},
