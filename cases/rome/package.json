@@ -28,7 +28,7 @@
     "@parcel/optimizer-esbuild": "^2.8.3",
     "@parcel/optimizer-swc": "^2.8.3",
     "@parcel/resolver-default": "^2.8.3",
-    "@rspack/cli": "0.0.0-82fa99600-20230219083939",
+    "@rspack/cli": "0.0.0-20230221114401",
     "@swc/core": "^1.3.35",
     "esbuild-loader": "^3.0.0",
     "parcel": "^2.8.3",
@@ -45,7 +45,8 @@
     "rbuild": "NODE_ENV=production rspack build -c rspack.config.js",
     "wbuild": "NODE_ENV=production webpack build",
     "pbuild": "NODE_ENV=production parcel build --no-cache",
-    "patch:rome": "cd ./src/rome && git apply ../../rome.patch"
+    "patch:rome": "cd ./src/rome && git apply ../../rome.patch",
+    "build:bench": "hyperfine 'pnpm rbuild' 'pnpm wbuild' 'pnpm pbuild' --export-markdown ./test.md"
   },
   "rebuildChangeFile": "src/index.ts"
 }
