@@ -29,8 +29,9 @@ module.exports = {
 			tty: false,
 		},
 	},
+	devtool: 'source-map',
 	optimization: {
-		minimize: true,
+		minimize: isProd,
     minimizer: [
       new TerserPlugin({
         minify: TerserPlugin.swcMinify,

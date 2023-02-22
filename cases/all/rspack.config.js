@@ -15,7 +15,7 @@ module.exports = {
 	entry: {
 		"main": resolve(__dirname, "./src/index.js")
 	},
-	builtins: { treeShaking: isProd, progress: {}, minify: isProd },
+	builtins: { treeShaking: false, progress: {}, minify: false },
 	stats: {
 		warnings: false,
 	},
