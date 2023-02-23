@@ -11,7 +11,7 @@ module.exports = {
 	},
 	// devtool: false,
 	output: {},
-	builtins: { treeShaking: false, progress: {}, minify: false },
+	builtins: { treeShaking: isProd, progress: {}, minify: isProd },
 	stats: {
 		warnings: false,
 	},
