@@ -1,8 +1,9 @@
+const isProd = process.env.NODE_ENV === "production";
 const TerserPlugin = require('terser-webpack-plugin')
 module.exports = {
-	devtool: "source-map",
+	devtool: isProd && "source-map",
 	optimization: {
-		minimize: true,
+		minimize: isProd,
     minimizer: [
       new TerserPlugin({
         minify: TerserPlugin.swcMinify,
