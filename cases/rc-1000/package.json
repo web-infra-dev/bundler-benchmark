@@ -7,7 +7,7 @@
     "pbuild": "NODE_ENV=production parcel build --no-cache",
     "wdev": "NODE_ENV=development webpack build",
     "rdev": "NODE_ENV=development rspack build -c rspack.config.js",
-    "pdev": "NODE_ENV=development parcel build --no-cache --no-optimize",
+    "pdev": "NODE_ENV=development parcel build --no-cache --no-optimize --no-scope-hoist --no-content-hash --no-scope-hoist --no-content-hash",
     "build:bench": "hyperfine 'pnpm rbuild' 'pnpm wbuild' 'pnpm pbuild' --export-markdown ./mac-build.md",
     "dev:bench": "hyperfine 'pnpm rdev' 'pnpm wdev' 'pnpm pdev' --export-markdown ./mac-dev.md"
   },
