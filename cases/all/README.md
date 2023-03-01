@@ -1,3 +1,9 @@
+# Get started
+1. pnpm i 
+2. pnpm bench:setup
+3. pnpm patch:rome 
+4. pnpm run dev:bench
+5. pnpm run build:bench
 
 <!---benchStart-->
 # Benchmark environment

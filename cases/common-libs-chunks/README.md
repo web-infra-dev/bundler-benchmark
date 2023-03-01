@@ -1,3 +1,7 @@
+# Get started
+1. `pnpm i`
+2. `pnpm run dev:bench` # run dev benchmark
+3. `pnpm run build:bench` # run build benchmark
 
 <!---benchStart-->
 # Benchmark environment
