@@ -5,6 +5,7 @@
 4. pnpm run dev:bench
 5. pnpm run build:bench
 
+
 <!---benchStart-->
 # Benchmark environment
 ## Linux
@@ -19,9 +20,9 @@ Apple M1 Max 10 core, 32 GB of RAM
 ### Linux 
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `pnpm rdev` | 3.814 ± 0.052 | 3.741 | 3.896 | 1.00 |
-| `pnpm wdev` | 34.876 ± 0.676 | 34.185 | 36.152 | 9.14 ± 0.22 |
-| `pnpm pdev` | 88.622 ± 1.051 | 86.907 | 89.884 | 23.24 ± 0.42 |
+| `pnpm rdev` | 4.246 ± 0.323 | 3.708 | 4.679 | 1.00 |
+| `pnpm wdev` | 34.772 ± 0.598 | 34.083 | 35.909 | 8.19 ± 0.64 |
+| `pnpm pdev` | 47.273 ± 1.084 | 46.474 | 50.229 | 11.13 ± 0.89 |
 
 
 ### Mac
@@ -48,4 +49,5 @@ Apple M1 Max 10 core, 32 GB of RAM
 | `pnpm wbuild` | 32.304 ± 0.656 | 31.656 | 33.980 | 2.10 ± 0.09 |
 
 <!---benchEnd-->
+	
 	
