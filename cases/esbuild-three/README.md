@@ -1,7 +1,8 @@
 # Get started
 1. `pnpm i`
-2. `pnpm run dev:bench` # run dev benchmark
-3. `pnpm run build:bench` # run build benchmark
+2. `pnpm bench:setup`
+3. `pnpm run dev:bench` # run dev benchmark
+4. `pnpm run build:bench` # run build benchmark
 
 
 <!---benchStart-->
