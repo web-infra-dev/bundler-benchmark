@@ -5,12 +5,15 @@
 
 
 
+
+
 <!---benchStart-->
 # Benchmark environment
+
 ## Linux
 Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz 32Core, 64GB of RAM
 ## Mac
-Apple M1 Max 10 core, 32 GB of RAM
+MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 
 # Benchmark result
 
@@ -27,9 +30,9 @@ Apple M1 Max 10 core, 32 GB of RAM
 ### Mac
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `pnpm rdev` | 1.920 ± 0.123 | 1.731 | 2.150 | 1.00 |
-| `pnpm wdev` | 5.237 ± 0.247 | 5.042 | 5.889 | 2.73 ± 0.22 |
-| `pnpm pdev` | 33.315 ± 0.880 | 32.015 | 34.780 | 17.35 ± 1.20 |
+| `pnpm rdev` | 3.764 ± 0.183 | 3.500 | 4.076 | 1.00 |
+| `pnpm wdev` | 10.493 ± 0.825 | 9.914 | 12.573 | 2.79 ± 0.26 |
+| `pnpm pdev` | 21.725 ± 1.554 | 20.694 | 25.937 | 5.77 ± 0.50 |
 
 
 ## Production
@@ -45,11 +48,13 @@ Apple M1 Max 10 core, 32 GB of RAM
 ### Mac
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `pnpm rbuild` | 2.783 ± 0.069 | 2.703 | 2.902 | 1.00 |
-| `pnpm wbuild` | 8.108 ± 0.272 | 7.723 | 8.694 | 2.91 ± 0.12 |
-| `pnpm pbuild` | 33.346 ± 1.112 | 31.867 | 35.571 | 11.98 ± 0.50 |
+| `pnpm rbuild` | 5.148 ± 0.075 | 5.049 | 5.277 | 1.00 |
+| `pnpm wbuild` | 16.072 ± 0.636 | 15.571 | 17.221 | 3.12 ± 0.13 |
+| `pnpm pbuild` | 61.501 ± 2.395 | 58.912 | 65.573 | 11.95 ± 0.50 |
 
 <!---benchEnd-->
+	
+	
 	
 	
 	

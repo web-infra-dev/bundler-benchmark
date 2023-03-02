@@ -20,8 +20,8 @@ for (let benchCase of casesList) {
 function benchBlockGenerator(casePath) {
 	const linuxDevMarkdownPath = "linux-dev.md";
 	const linuxBuildMarkdownPath = "linux-build.md";
-	const macBuildMarkdownPath = "mac-build.md";
-	const macDevMarkdownPath = "mac-dev.md";
+	const macBuildMarkdownPath = "mac-i7-build.md";
+	const macDevMarkdownPath = "mac-i7-dev.md";
 
 	let linuxBuildMarkdownContent = "";
 	let linuxDevMarkdownContent = "";
@@ -57,10 +57,11 @@ function benchBlockGenerator(casePath) {
 	const template = `
 <!---benchStart-->
 # Benchmark environment
+
 ## Linux
 Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz 32Core, 64GB of RAM
 ## Mac
-Apple M1 Max 10 core, 32 GB of RAM
+MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 
 # Benchmark result
 
