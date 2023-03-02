@@ -5,6 +5,7 @@
 4. `pnpm run build:bench` # run build benchmark
 
 
+
 <!---benchStart-->
 # Benchmark environment
 ## Linux
@@ -50,5 +51,6 @@ Apple M1 Max 10 core, 32 GB of RAM
 | `pnpm pbuild` | 8.283 ± 0.742 | 7.729 | 10.226 | 2.36 ± 0.22 |
 
 <!---benchEnd-->
+	
 	
 	

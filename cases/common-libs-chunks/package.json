@@ -37,7 +37,7 @@
   "devDependencies": {
     "@parcel/config-default": "^2.8.3",
     "@parcel/optimizer-swc": "^2.8.3",
-    "@rspack/cli": "0.0.0-32db872cb-20230223141840"
+    "@rspack/cli": "0.0.0-b2f4592f50-20230302040445"
 
 ,
     "@swc/core": "^1.3.36",
