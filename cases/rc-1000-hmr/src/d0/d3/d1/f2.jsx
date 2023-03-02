@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d2/f0.jsx'
+import Component__1 from './d2/f1.jsx'
+import Component__2 from './d2/f2.jsx'
+import Component__3 from './d2/f3.jsx'
+import Component__4 from './d2/f4.jsx'
+import Component__5 from './d2/f5.jsx'
+import Component__6 from './d2/f6.jsx'
+import Component__7 from './d2/f7.jsx'
+import Component__8 from './d2/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="FNineKey" size="24" />
-<Icon type="Cones" size="24" />
-<Icon type="AutoLineWidth" size="24" />
-<Icon type="BatteryFailure" size="24" />
-<Icon type="DoubleLeft" size="24" />
-<Icon type="Entertainment" size="24" />
-<Icon type="Bytedance" size="24" />
-<Icon type="Figma" size="24" />
-<Icon type="Clue" size="24" />
-<Icon type="CirclesSeven" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="ChineseOne" size="24" />
+<Icon type="FileQualityOne" size="24" />
+<Icon type="DataSheet" size="24" />
+<Icon type="Calendar" size="24" />
+<Icon type="Flask" size="24" />
+<Icon type="DataScreen" size="24" />
+<Icon type="Abnormal" size="24" />
+<Icon type="BridgeTwo" size="24" />
+<Icon type="BabyFeet" size="24" />
+<Icon type="Balance" size="24" />
       </div>
     )
   }

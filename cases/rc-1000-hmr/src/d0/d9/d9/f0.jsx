@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d0/f0.jsx'
+import Component__1 from './d0/f1.jsx'
+import Component__2 from './d0/f2.jsx'
+import Component__3 from './d0/f3.jsx'
+import Component__4 from './d0/f4.jsx'
+import Component__5 from './d0/f5.jsx'
+import Component__6 from './d0/f6.jsx'
+import Component__7 from './d0/f7.jsx'
+import Component__8 from './d0/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="DirectionAdjustment" size="24" />
-<Icon type="CrossRingTwo" size="24" />
-<Icon type="Deeplink" size="24" />
-<Icon type="Curling" size="24" />
-<Icon type="BarberClippers" size="24" />
-<Icon type="Bee" size="24" />
-<Icon type="BankCardTwo" size="24" />
-<Icon type="Control" size="24" />
-<Icon type="Fanqiexiaoshuo" size="24" />
-<Icon type="CodeLaptop" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="CornerDownRight" size="24" />
+<Icon type="CloseSmall" size="24" />
+<Icon type="BreadOne" size="24" />
+<Icon type="AddPic" size="24" />
+<Icon type="CollectionFiles" size="24" />
+<Icon type="Export" size="24" />
+<Icon type="Fireworks" size="24" />
+<Icon type="BalanceTwo" size="24" />
+<Icon type="CameraOne" size="24" />
+<Icon type="Fingernail" size="24" />
       </div>
     )
   }

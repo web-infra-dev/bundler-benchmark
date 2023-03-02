@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d7/f0.jsx'
+import Component__1 from './d7/f1.jsx'
+import Component__2 from './d7/f2.jsx'
+import Component__3 from './d7/f3.jsx'
+import Component__4 from './d7/f4.jsx'
+import Component__5 from './d7/f5.jsx'
+import Component__6 from './d7/f6.jsx'
+import Component__7 from './d7/f7.jsx'
+import Component__8 from './d7/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Deer" size="24" />
-<Icon type="BadTwo" size="24" />
-<Icon type="FileCodeOne" size="24" />
-<Icon type="ChargingTreasure" size="24" />
-<Icon type="BeachUmbrella" size="24" />
-<Icon type="Book" size="24" />
-<Icon type="FileEditingOne" size="24" />
-<Icon type="EndpointDisplacement" size="24" />
-<Icon type="ChartScatter" size="24" />
-<Icon type="FileCollection" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Barbecue" size="24" />
+<Icon type="AlignTextMiddleOne" size="24" />
+<Icon type="Experiment" size="24" />
+<Icon type="AfferentThree" size="24" />
+<Icon type="FileQualityOne" size="24" />
+<Icon type="Basketball" size="24" />
+<Icon type="Bird" size="24" />
+<Icon type="Concern" size="24" />
+<Icon type="BarberClippers" size="24" />
+<Icon type="ConnectAddressTwo" size="24" />
       </div>
     )
   }

@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d7/f0.jsx'
+import Component__1 from './d7/f1.jsx'
+import Component__2 from './d7/f2.jsx'
+import Component__3 from './d7/f3.jsx'
+import Component__4 from './d7/f4.jsx'
+import Component__5 from './d7/f5.jsx'
+import Component__6 from './d7/f6.jsx'
+import Component__7 from './d7/f7.jsx'
+import Component__8 from './d7/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="FileFocusOne" size="24" />
-<Icon type="Connect" size="24" />
-<Icon type="EmailDown" size="24" />
-<Icon type="CubeTwo" size="24" />
-<Icon type="Experiment" size="24" />
-<Icon type="ChildrenPyramid" size="24" />
-<Icon type="Check" size="24" />
-<Icon type="CableCar" size="24" />
-<Icon type="DataServer" size="24" />
-<Icon type="Display" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="ChartHistogramTwo" size="24" />
+<Icon type="Avocado" size="24" />
+<Icon type="DatabaseEnter" size="24" />
+<Icon type="FileStaff" size="24" />
+<Icon type="BeachUmbrella" size="24" />
+<Icon type="DistributeVertically" size="24" />
+<Icon type="FileLockOne" size="24" />
+<Icon type="AddMusic" size="24" />
+<Icon type="Comb" size="24" />
+<Icon type="AlignTextBothOne" size="24" />
       </div>
     )
   }

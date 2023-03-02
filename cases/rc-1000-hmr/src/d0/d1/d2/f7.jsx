@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d7/f0.jsx'
+import Component__1 from './d7/f1.jsx'
+import Component__2 from './d7/f2.jsx'
+import Component__3 from './d7/f3.jsx'
+import Component__4 from './d7/f4.jsx'
+import Component__5 from './d7/f5.jsx'
+import Component__6 from './d7/f6.jsx'
+import Component__7 from './d7/f7.jsx'
+import Component__8 from './d7/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Dolphin" size="24" />
-<Icon type="FileEditing" size="24" />
-<Icon type="AlignmentLeftBottom" size="24" />
-<Icon type="AddMode" size="24" />
-<Icon type="AperturePriority" size="24" />
-<Icon type="FenceOne" size="24" />
-<Icon type="Consignment" size="24" />
-<Icon type="Cool" size="24" />
-<Icon type="Bottle" size="24" />
-<Icon type="AlignmentVerticalRight" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="EnglishMustache" size="24" />
+<Icon type="ClothesSuit" size="24" />
+<Icon type="AlignTextBothOne" size="24" />
+<Icon type="ClothesHoodie" size="24" />
+<Icon type="BabyTaste" size="24" />
+<Icon type="BlockTen" size="24" />
+<Icon type="DivingSuit" size="24" />
+<Icon type="CrossRingTwo" size="24" />
+<Icon type="Bow" size="24" />
+<Icon type="DiamondTwo" size="24" />
       </div>
     )
   }

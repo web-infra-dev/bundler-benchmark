@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d5/f0.jsx'
+import Component__1 from './d5/f1.jsx'
+import Component__2 from './d5/f2.jsx'
+import Component__3 from './d5/f3.jsx'
+import Component__4 from './d5/f4.jsx'
+import Component__5 from './d5/f5.jsx'
+import Component__6 from './d5/f6.jsx'
+import Component__7 from './d5/f7.jsx'
+import Component__8 from './d5/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="FileDate" size="24" />
-<Icon type="ExpandUp" size="24" />
-<Icon type="DatabaseDownload" size="24" />
-<Icon type="Electrocardiogram" size="24" />
-<Icon type="ClothesGloves" size="24" />
-<Icon type="Comments" size="24" />
-<Icon type="Dog" size="24" />
-<Icon type="FileAdditionOne" size="24" />
-<Icon type="FiveKey" size="24" />
-<Icon type="DatabasePosition" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="DomeLight" size="24" />
+<Icon type="DataNull" size="24" />
+<Icon type="FileCollectionOne" size="24" />
+<Icon type="BaggageDelay" size="24" />
+<Icon type="DirectionAdjustmentTwo" size="24" />
+<Icon type="DeleteOne" size="24" />
+<Icon type="Distortion" size="24" />
+<Icon type="DiamondRing" size="24" />
+<Icon type="Cheese" size="24" />
+<Icon type="Bye" size="24" />
       </div>
     )
   }

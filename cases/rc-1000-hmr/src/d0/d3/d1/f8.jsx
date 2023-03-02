@@ -2,21 +2,55 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d8/f0.jsx'
+import Component__1 from './d8/f1.jsx'
+import Component__2 from './d8/f2.jsx'
+import Component__3 from './d8/f3.jsx'
+import Component__4 from './d8/f4.jsx'
+import Component__5 from './d8/f5.jsx'
+import Component__6 from './d8/f6.jsx'
+import Component__7 from './d8/f7.jsx'
+import Component__8 from './d8/f8.jsx'
+import Component__9 from './d9/f0.jsx'
+import Component__10 from './d9/f1.jsx'
+import Component__11 from './d9/f2.jsx'
+import Component__12 from './d9/f3.jsx'
+import Component__13 from './d9/f4.jsx'
+import Component__14 from './d9/f5.jsx'
+import Component__15 from './d9/f6.jsx'
+import Component__16 from './d9/f7.jsx'
+import Component__17 from './d9/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Experiment" size="24" />
-<Icon type="ConfoundedFace" size="24" />
-<Icon type="DatabasePoint" size="24" />
-<Icon type="Cd" size="24" />
-<Icon type="CakeFive" size="24" />
-<Icon type="FileRemoval" size="24" />
-<Icon type="Fish" size="24" />
-<Icon type="BoosterCarSeat" size="24" />
-<Icon type="Easy" size="24" />
-<Icon type="Change" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+<Component__9/>
+<Component__10/>
+<Component__11/>
+<Component__12/>
+<Component__13/>
+<Component__14/>
+<Component__15/>
+<Component__16/>
+<Component__17/>
+      <Icon type="ChessOne" size="24" />
+<Icon type="AutoWidth" size="24" />
+<Icon type="Fingernail" size="24" />
+<Icon type="CollectLaptop" size="24" />
+<Icon type="Creative" size="24" />
+<Icon type="BottleThree" size="24" />
+<Icon type="BigClock" size="24" />
+<Icon type="ChurchOne" size="24" />
+<Icon type="Attention" size="24" />
+<Icon type="FileDisplayOne" size="24" />
       </div>
     )
   }

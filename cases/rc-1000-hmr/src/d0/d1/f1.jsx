@@ -23,16 +23,16 @@ import Component__8 from './d1/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="CategoryManagement" size="24" />
-<Icon type="FileSearchTwo" size="24" />
-<Icon type="CircleTwoLine" size="24" />
-<Icon type="Filter" size="24" />
-<Icon type="Cuvette" size="24" />
-<Icon type="Flag" size="24" />
-<Icon type="FaceRecognition" size="24" />
-<Icon type="Bloom" size="24" />
-<Icon type="Balance" size="24" />
-<Icon type="CurveAdjustment" size="24" />
+      <Icon type="FileEditing" size="24" />
+<Icon type="FigmaComponent" size="24" />
+<Icon type="DocSearch" size="24" />
+<Icon type="Exchange" size="24" />
+<Icon type="CeMarking" size="24" />
+<Icon type="DataLock" size="24" />
+<Icon type="Average" size="24" />
+<Icon type="DiamondRing" size="24" />
+<Icon type="FileDateOne" size="24" />
+<Icon type="BarCode" size="24" />
       </div>
     )
   }

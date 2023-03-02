@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d5/f0.jsx'
+import Component__1 from './d5/f1.jsx'
+import Component__2 from './d5/f2.jsx'
+import Component__3 from './d5/f3.jsx'
+import Component__4 from './d5/f4.jsx'
+import Component__5 from './d5/f5.jsx'
+import Component__6 from './d5/f6.jsx'
+import Component__7 from './d5/f7.jsx'
+import Component__8 from './d5/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="ExpandTextInput" size="24" />
-<Icon type="Film" size="24" />
-<Icon type="ColorCard" size="24" />
-<Icon type="Abdominal" size="24" />
-<Icon type="AutoLineWidth" size="24" />
-<Icon type="FTwoKey" size="24" />
-<Icon type="AsteriskKey" size="24" />
-<Icon type="Carousel" size="24" />
-<Icon type="AlignTextBottomOne" size="24" />
-<Icon type="Comb" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="ClothesHoodie" size="24" />
+<Icon type="Cruise" size="24" />
+<Icon type="CubeThree" size="24" />
+<Icon type="FileGif" size="24" />
+<Icon type="CircleDoubleRight" size="24" />
+<Icon type="Aquarius" size="24" />
+<Icon type="Camera" size="24" />
+<Icon type="ArchersBow" size="24" />
+<Icon type="BottomBar" size="24" />
+<Icon type="DateComesBack" size="24" />
       </div>
     )
   }

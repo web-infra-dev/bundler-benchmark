@@ -23,16 +23,16 @@ import Component__8 from './d1/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="FileConversion" size="24" />
-<Icon type="Connection" size="24" />
-<Icon type="CloseWifi" size="24" />
-<Icon type="Facebook" size="24" />
-<Icon type="AutoWidth" size="24" />
-<Icon type="CornerUpLeft" size="24" />
-<Icon type="ArrowCircleLeft" size="24" />
-<Icon type="Anchor" size="24" />
-<Icon type="CityOne" size="24" />
-<Icon type="Electrocardiogram" size="24" />
+      <Icon type="DoubleRight" size="24" />
+<Icon type="AlignTextRight" size="24" />
+<Icon type="AlignmentBottomCenter" size="24" />
+<Icon type="CrownTwo" size="24" />
+<Icon type="ConfoundedFace" size="24" />
+<Icon type="AlignHorizontally" size="24" />
+<Icon type="ChickenLeg" size="24" />
+<Icon type="CopyOne" size="24" />
+<Icon type="ArchersBow" size="24" />
+<Icon type="BlockFive" size="24" />
       </div>
     )
   }

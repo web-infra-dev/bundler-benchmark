@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d1/f0.jsx'
+import Component__1 from './d1/f1.jsx'
+import Component__2 from './d1/f2.jsx'
+import Component__3 from './d1/f3.jsx'
+import Component__4 from './d1/f4.jsx'
+import Component__5 from './d1/f5.jsx'
+import Component__6 from './d1/f6.jsx'
+import Component__7 from './d1/f7.jsx'
+import Component__8 from './d1/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Dollar" size="24" />
-<Icon type="AvocadoOne" size="24" />
-<Icon type="Cocktail" size="24" />
-<Icon type="DeskLamp" size="24" />
-<Icon type="Conditioner" size="24" />
-<Icon type="CollectLaptop" size="24" />
-<Icon type="CameraFour" size="24" />
-<Icon type="BranchOne" size="24" />
-<Icon type="Carousel" size="24" />
-<Icon type="BlockTwo" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Dribble" size="24" />
+<Icon type="AfferentThree" size="24" />
+<Icon type="BigClock" size="24" />
+<Icon type="Api" size="24" />
+<Icon type="Bydesign" size="24" />
+<Icon type="FileCabinet" size="24" />
+<Icon type="CalendarThree" size="24" />
+<Icon type="ArrowLeftUp" size="24" />
+<Icon type="DeleteThemes" size="24" />
+<Icon type="FinancingOne" size="24" />
       </div>
     )
   }

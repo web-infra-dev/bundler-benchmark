@@ -23,16 +23,16 @@ import Component__8 from './d4/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="CooperativeHandshake" size="24" />
-<Icon type="Carousel" size="24" />
-<Icon type="BackgroundColor" size="24" />
-<Icon type="BlockTwo" size="24" />
-<Icon type="FaceRecognition" size="24" />
-<Icon type="AlignLeft" size="24" />
-<Icon type="AddTextTwo" size="24" />
-<Icon type="CattleZodiac" size="24" />
-<Icon type="Brain" size="24" />
-<Icon type="CornerUpRight" size="24" />
+      <Icon type="Check" size="24" />
+<Icon type="AppleOne" size="24" />
+<Icon type="FacialMask" size="24" />
+<Icon type="AlignmentVerticalRight" size="24" />
+<Icon type="Bookshelf" size="24" />
+<Icon type="Boiler" size="24" />
+<Icon type="BatteryEmpty" size="24" />
+<Icon type="BlockThree" size="24" />
+<Icon type="FFiveKey" size="24" />
+<Icon type="Croissant" size="24" />
       </div>
     )
   }

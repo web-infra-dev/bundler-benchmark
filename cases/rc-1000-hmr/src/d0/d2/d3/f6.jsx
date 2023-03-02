@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d6/f0.jsx'
+import Component__1 from './d6/f1.jsx'
+import Component__2 from './d6/f2.jsx'
+import Component__3 from './d6/f3.jsx'
+import Component__4 from './d6/f4.jsx'
+import Component__5 from './d6/f5.jsx'
+import Component__6 from './d6/f6.jsx'
+import Component__7 from './d6/f7.jsx'
+import Component__8 from './d6/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Delivery" size="24" />
-<Icon type="FlightAirflow" size="24" />
-<Icon type="ExpandLeft" size="24" />
-<Icon type="Cake" size="24" />
-<Icon type="Cones" size="24" />
-<Icon type="ElectronicDoorLock" size="24" />
-<Icon type="CircleDoubleDown" size="24" />
-<Icon type="AlignBottomTwo" size="24" />
-<Icon type="FileSearchOne" size="24" />
-<Icon type="Beauty" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Abnormal" size="24" />
+<Icon type="BoyTwo" size="24" />
+<Icon type="AnchorOne" size="24" />
+<Icon type="AddMusic" size="24" />
+<Icon type="Bowl" size="24" />
+<Icon type="ChopsticksFork" size="24" />
+<Icon type="AfferentFour" size="24" />
+<Icon type="Bottle" size="24" />
+<Icon type="DiamondThree" size="24" />
+<Icon type="Cactus" size="24" />
       </div>
     )
   }

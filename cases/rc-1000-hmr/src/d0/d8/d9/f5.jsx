@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d5/f0.jsx'
+import Component__1 from './d5/f1.jsx'
+import Component__2 from './d5/f2.jsx'
+import Component__3 from './d5/f3.jsx'
+import Component__4 from './d5/f4.jsx'
+import Component__5 from './d5/f5.jsx'
+import Component__6 from './d5/f6.jsx'
+import Component__7 from './d5/f7.jsx'
+import Component__8 from './d5/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Cheese" size="24" />
-<Icon type="AlignmentTopCenter" size="24" />
-<Icon type="BatteryFailure" size="24" />
-<Icon type="ChartPieOne" size="24" />
-<Icon type="FileStaffOne" size="24" />
-<Icon type="Ad" size="24" />
-<Icon type="Dog" size="24" />
-<Icon type="AlignTextMiddleOne" size="24" />
-<Icon type="FileZip" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Electrocardiogram" size="24" />
+<Icon type="Change" size="24" />
+<Icon type="Cloudy" size="24" />
+<Icon type="BlocksAndArrows" size="24" />
+<Icon type="DiamondNecklace" size="24" />
+<Icon type="DashboardTwo" size="24" />
+<Icon type="DataArrival" size="24" />
+<Icon type="Figma" size="24" />
 <Icon type="ExcelOne" size="24" />
+<Icon type="EditTwo" size="24" />
       </div>
     )
   }

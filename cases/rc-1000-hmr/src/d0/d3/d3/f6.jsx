@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d6/f0.jsx'
+import Component__1 from './d6/f1.jsx'
+import Component__2 from './d6/f2.jsx'
+import Component__3 from './d6/f3.jsx'
+import Component__4 from './d6/f4.jsx'
+import Component__5 from './d6/f5.jsx'
+import Component__6 from './d6/f6.jsx'
+import Component__7 from './d6/f7.jsx'
+import Component__8 from './d6/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="ExpressionlessFace" size="24" />
-<Icon type="AddPicture" size="24" />
-<Icon type="Bat" size="24" />
-<Icon type="FZeroKey" size="24" />
-<Icon type="Connection" size="24" />
-<Icon type="Empty" size="24" />
-<Icon type="FaceWithoutMouth" size="24" />
-<Icon type="DeleteMode" size="24" />
-<Icon type="ClothesCrewNeck" size="24" />
-<Icon type="AirConditioning" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="ClothesWindbreaker" size="24" />
+<Icon type="BachelorCapTwo" size="24" />
+<Icon type="FacialMask" size="24" />
+<Icon type="BytedanceApplets" size="24" />
+<Icon type="Drone" size="24" />
+<Icon type="ArrowRight" size="24" />
+<Icon type="Dollar" size="24" />
+<Icon type="Baby" size="24" />
+<Icon type="Ecg" size="24" />
+<Icon type="BoyStroller" size="24" />
       </div>
     )
   }

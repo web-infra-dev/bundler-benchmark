@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d2/f0.jsx'
+import Component__1 from './d2/f1.jsx'
+import Component__2 from './d2/f2.jsx'
+import Component__3 from './d2/f3.jsx'
+import Component__4 from './d2/f4.jsx'
+import Component__5 from './d2/f5.jsx'
+import Component__6 from './d2/f6.jsx'
+import Component__7 from './d2/f7.jsx'
+import Component__8 from './d2/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Application" size="24" />
-<Icon type="Endocrine" size="24" />
-<Icon type="Bear" size="24" />
-<Icon type="ElectronicLocksOpen" size="24" />
-<Icon type="BringToFront" size="24" />
-<Icon type="Flashlight" size="24" />
-<Icon type="BlocksAndArrows" size="24" />
-<Icon type="Cattle" size="24" />
-<Icon type="AlignTextTop" size="24" />
-<Icon type="BottomBar" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="ClothesSkates" size="24" />
+<Icon type="DropShadowDown" size="24" />
+<Icon type="AlignmentLeftBottom" size="24" />
+<Icon type="Extend" size="24" />
+<Icon type="ChairOne" size="24" />
+<Icon type="Dot" size="24" />
+<Icon type="DatabaseForbid" size="24" />
+<Icon type="DatabasePosition" size="24" />
+<Icon type="ChickenZodiac" size="24" />
+<Icon type="ExternalTransmission" size="24" />
       </div>
     )
   }

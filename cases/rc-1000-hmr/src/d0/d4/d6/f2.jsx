@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d2/f0.jsx'
+import Component__1 from './d2/f1.jsx'
+import Component__2 from './d2/f2.jsx'
+import Component__3 from './d2/f3.jsx'
+import Component__4 from './d2/f4.jsx'
+import Component__5 from './d2/f5.jsx'
+import Component__6 from './d2/f6.jsx'
+import Component__7 from './d2/f7.jsx'
+import Component__8 from './d2/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="DatabaseFail" size="24" />
-<Icon type="BirthdayCake" size="24" />
-<Icon type="Drink" size="24" />
-<Icon type="BlocksAndArrows" size="24" />
-<Icon type="Cardioelectric" size="24" />
-<Icon type="English" size="24" />
-<Icon type="Bless" size="24" />
-<Icon type="ChartStock" size="24" />
-<Icon type="BaggageDelay" size="24" />
-<Icon type="Beer" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="FileSearchTwo" size="24" />
+<Icon type="FileSearchOne" size="24" />
+<Icon type="FTwoKey" size="24" />
+<Icon type="Circus" size="24" />
+<Icon type="AirplaneWindowOne" size="24" />
+<Icon type="Avatar" size="24" />
+<Icon type="DeleteTwo" size="24" />
+<Icon type="FailPicture" size="24" />
+<Icon type="BabySling" size="24" />
+<Icon type="DeskLampOne" size="24" />
       </div>
     )
   }

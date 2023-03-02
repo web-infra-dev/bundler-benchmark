@@ -23,16 +23,16 @@ import Component__8 from './d7/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="BringForward" size="24" />
-<Icon type="DatabaseLock" size="24" />
-<Icon type="CircleDoubleDown" size="24" />
-<Icon type="DocFail" size="24" />
-<Icon type="ClothesSuit" size="24" />
-<Icon type="DisabaledWeb" size="24" />
-<Icon type="DifferenceSet" size="24" />
-<Icon type="BaggageDelay" size="24" />
-<Icon type="EfferentThree" size="24" />
-<Icon type="FileCollection" size="24" />
+      <Icon type="DataArrival" size="24" />
+<Icon type="FirstAidKit" size="24" />
+<Icon type="CircleLeftUp" size="24" />
+<Icon type="CornerDownRight" size="24" />
+<Icon type="Close" size="24" />
+<Icon type="Erase" size="24" />
+<Icon type="Deposit" size="24" />
+<Icon type="FileCodeOne" size="24" />
+<Icon type="CuttingOne" size="24" />
+<Icon type="Computer" size="24" />
       </div>
     )
   }

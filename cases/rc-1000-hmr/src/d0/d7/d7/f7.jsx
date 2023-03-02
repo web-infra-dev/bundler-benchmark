@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d7/f0.jsx'
+import Component__1 from './d7/f1.jsx'
+import Component__2 from './d7/f2.jsx'
+import Component__3 from './d7/f3.jsx'
+import Component__4 from './d7/f4.jsx'
+import Component__5 from './d7/f5.jsx'
+import Component__6 from './d7/f6.jsx'
+import Component__7 from './d7/f7.jsx'
+import Component__8 from './d7/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="DeleteFive" size="24" />
-<Icon type="ExchangeFour" size="24" />
-<Icon type="AutoFocus" size="24" />
-<Icon type="FilePpt" size="24" />
-<Icon type="CookingPot" size="24" />
-<Icon type="CompassOne" size="24" />
-<Icon type="Abdominal" size="24" />
-<Icon type="AlignmentTopRight" size="24" />
-<Icon type="Abnormal" size="24" />
-<Icon type="DogZodiac" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Bedside" size="24" />
+<Icon type="ExclusiveGateway" size="24" />
+<Icon type="Conditioner" size="24" />
+<Icon type="EfferentFour" size="24" />
+<Icon type="Briefcase" size="24" />
+<Icon type="Android" size="24" />
+<Icon type="DoubleUp" size="24" />
+<Icon type="CornerLeftDown" size="24" />
+<Icon type="Dome" size="24" />
+<Icon type="DatabaseEnter" size="24" />
       </div>
     )
   }

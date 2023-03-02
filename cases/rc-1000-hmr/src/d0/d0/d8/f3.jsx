@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d3/f0.jsx'
+import Component__1 from './d3/f1.jsx'
+import Component__2 from './d3/f2.jsx'
+import Component__3 from './d3/f3.jsx'
+import Component__4 from './d3/f4.jsx'
+import Component__5 from './d3/f5.jsx'
+import Component__6 from './d3/f6.jsx'
+import Component__7 from './d3/f7.jsx'
+import Component__8 from './d3/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Division" size="24" />
-<Icon type="Curling" size="24" />
-<Icon type="FileEditing" size="24" />
-<Icon type="DataOne" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="ArrowCircleLeft" size="24" />
+<Icon type="AddSubset" size="24" />
+<Icon type="BottleTwo" size="24" />
+<Icon type="Bluetooth" size="24" />
 <Icon type="AlignTop" size="24" />
-<Icon type="DownloadWeb" size="24" />
-<Icon type="AddOne" size="24" />
-<Icon type="CodeOne" size="24" />
-<Icon type="Down" size="24" />
-<Icon type="Chimney" size="24" />
+<Icon type="Cuvette" size="24" />
+<Icon type="ErrorComputer" size="24" />
+<Icon type="EiffelTower" size="24" />
+<Icon type="FileTxtOne" size="24" />
+<Icon type="FileFocusOne" size="24" />
       </div>
     )
   }

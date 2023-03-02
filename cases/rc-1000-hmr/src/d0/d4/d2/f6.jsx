@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d6/f0.jsx'
+import Component__1 from './d6/f1.jsx'
+import Component__2 from './d6/f2.jsx'
+import Component__3 from './d6/f3.jsx'
+import Component__4 from './d6/f4.jsx'
+import Component__5 from './d6/f5.jsx'
+import Component__6 from './d6/f6.jsx'
+import Component__7 from './d6/f7.jsx'
+import Component__8 from './d6/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="DownloadWeb" size="24" />
-<Icon type="FileTxt" size="24" />
-<Icon type="Checkbox" size="24" />
-<Icon type="Duck" size="24" />
-<Icon type="Boy" size="24" />
-<Icon type="DataScreen" size="24" />
-<Icon type="Connection" size="24" />
-<Icon type="CornerDownRight" size="24" />
-<Icon type="AudioFile" size="24" />
-<Icon type="ChildrenPyramid" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="AddUser" size="24" />
+<Icon type="Elevator" size="24" />
+<Icon type="FileDisplay" size="24" />
+<Icon type="ConfoundedFace" size="24" />
+<Icon type="CakeThree" size="24" />
+<Icon type="ColorCard" size="24" />
+<Icon type="FileDoc" size="24" />
+<Icon type="Fist" size="24" />
+<Icon type="Fitness" size="24" />
+<Icon type="First" size="24" />
       </div>
     )
   }

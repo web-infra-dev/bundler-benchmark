@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d0/f0.jsx'
+import Component__1 from './d0/f1.jsx'
+import Component__2 from './d0/f2.jsx'
+import Component__3 from './d0/f3.jsx'
+import Component__4 from './d0/f4.jsx'
+import Component__5 from './d0/f5.jsx'
+import Component__6 from './d0/f6.jsx'
+import Component__7 from './d0/f7.jsx'
+import Component__8 from './d0/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="CloseOne" size="24" />
-<Icon type="CircleDoubleUp" size="24" />
-<Icon type="Ad" size="24" />
-<Icon type="Bye" size="24" />
-<Icon type="Camp" size="24" />
-<Icon type="Deeplink" size="24" />
-<Icon type="DatabasePosition" size="24" />
-<Icon type="CircleRightUp" size="24" />
-<Icon type="AlignTop" size="24" />
-<Icon type="ClothesSuit" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Devices" size="24" />
+<Icon type="EngineeringBrand" size="24" />
+<Icon type="BlackEight" size="24" />
+<Icon type="FileText" size="24" />
+<Icon type="FileCollectionOne" size="24" />
+<Icon type="DigitalWatches" size="24" />
+<Icon type="AlignTextBoth" size="24" />
+<Icon type="EnvelopeOne" size="24" />
+<Icon type="ChartProportion" size="24" />
+<Icon type="Cloudy" size="24" />
       </div>
     )
   }

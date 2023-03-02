@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d0/f0.jsx'
+import Component__1 from './d0/f1.jsx'
+import Component__2 from './d0/f2.jsx'
+import Component__3 from './d0/f3.jsx'
+import Component__4 from './d0/f4.jsx'
+import Component__5 from './d0/f5.jsx'
+import Component__6 from './d0/f6.jsx'
+import Component__7 from './d0/f7.jsx'
+import Component__8 from './d0/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="DiscoveryIndex" size="24" />
-<Icon type="ChristmasTreeOne" size="24" />
-<Icon type="AlignTextBoth" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="FileHidingOne" size="24" />
 <Icon type="Dribble" size="24" />
-<Icon type="Expenses" size="24" />
-<Icon type="BridgeOne" size="24" />
-<Icon type="BaggageDelay" size="24" />
-<Icon type="EndTimeSort" size="24" />
-<Icon type="AlphabeticalSorting" size="24" />
-<Icon type="CalendarThirty" size="24" />
+<Icon type="FileFailed" size="24" />
+<Icon type="Dvi" size="24" />
+<Icon type="Baby" size="24" />
+<Icon type="Camera" size="24" />
+<Icon type="AlignTopTwo" size="24" />
+<Icon type="CalendarThirtyTwo" size="24" />
+<Icon type="BringToFront" size="24" />
+<Icon type="DatabaseDownload" size="24" />
       </div>
     )
   }

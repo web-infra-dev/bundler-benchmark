@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d5/f0.jsx'
+import Component__1 from './d5/f1.jsx'
+import Component__2 from './d5/f2.jsx'
+import Component__3 from './d5/f3.jsx'
+import Component__4 from './d5/f4.jsx'
+import Component__5 from './d5/f5.jsx'
+import Component__6 from './d5/f6.jsx'
+import Component__7 from './d5/f7.jsx'
+import Component__8 from './d5/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="DamageMap" size="24" />
-<Icon type="CloseOne" size="24" />
-<Icon type="ChineseOne" size="24" />
-<Icon type="ExternalTransmission" size="24" />
-<Icon type="DownloadTwo" size="24" />
-<Icon type="Bydesign" size="24" />
-<Icon type="FileGif" size="24" />
-<Icon type="BarCode" size="24" />
-<Icon type="Buy" size="24" />
-<Icon type="BlockTen" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Boy" size="24" />
+<Icon type="AddItem" size="24" />
+<Icon type="Calendar" size="24" />
+<Icon type="ExpandLeft" size="24" />
+<Icon type="Boxing" size="24" />
+<Icon type="Checklist" size="24" />
+<Icon type="FileFocus" size="24" />
+<Icon type="BottleOne" size="24" />
+<Icon type="ConceptSharing" size="24" />
+<Icon type="CirclesSeven" size="24" />
       </div>
     )
   }

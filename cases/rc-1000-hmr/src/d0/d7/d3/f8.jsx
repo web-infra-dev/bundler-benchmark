@@ -2,21 +2,55 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d8/f0.jsx'
+import Component__1 from './d8/f1.jsx'
+import Component__2 from './d8/f2.jsx'
+import Component__3 from './d8/f3.jsx'
+import Component__4 from './d8/f4.jsx'
+import Component__5 from './d8/f5.jsx'
+import Component__6 from './d8/f6.jsx'
+import Component__7 from './d8/f7.jsx'
+import Component__8 from './d8/f8.jsx'
+import Component__9 from './d9/f0.jsx'
+import Component__10 from './d9/f1.jsx'
+import Component__11 from './d9/f2.jsx'
+import Component__12 from './d9/f3.jsx'
+import Component__13 from './d9/f4.jsx'
+import Component__14 from './d9/f5.jsx'
+import Component__15 from './d9/f6.jsx'
+import Component__16 from './d9/f7.jsx'
+import Component__17 from './d9/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Average" size="24" />
-<Icon type="Feelgood" size="24" />
-<Icon type="Cat" size="24" />
-<Icon type="FishOne" size="24" />
-<Icon type="CheckSmall" size="24" />
-<Icon type="BabyCarSeat" size="24" />
-<Icon type="DatabaseFirst" size="24" />
-<Icon type="BreadMachine" size="24" />
-<Icon type="Blackboard" size="24" />
-<Icon type="FSevenKey" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+<Component__9/>
+<Component__10/>
+<Component__11/>
+<Component__12/>
+<Component__13/>
+<Component__14/>
+<Component__15/>
+<Component__16/>
+<Component__17/>
+      <Icon type="BaseballBat" size="24" />
+<Icon type="ExperimentOne" size="24" />
+<Icon type="ArithmeticButtons" size="24" />
+<Icon type="CarBattery" size="24" />
+<Icon type="Fist" size="24" />
+<Icon type="ClothesSuit" size="24" />
+<Icon type="FaceWithSmilingOpenEyes" size="24" />
+<Icon type="AlarmClock" size="24" />
+<Icon type="BatteryTips" size="24" />
+<Icon type="CameraTwo" size="24" />
       </div>
     )
   }

@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d6/f0.jsx'
+import Component__1 from './d6/f1.jsx'
+import Component__2 from './d6/f2.jsx'
+import Component__3 from './d6/f3.jsx'
+import Component__4 from './d6/f4.jsx'
+import Component__5 from './d6/f5.jsx'
+import Component__6 from './d6/f6.jsx'
+import Component__7 from './d6/f7.jsx'
+import Component__8 from './d6/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="BrowserSafari" size="24" />
-<Icon type="DeleteMode" size="24" />
-<Icon type="CycleMovement" size="24" />
-<Icon type="Cardioelectric" size="24" />
-<Icon type="AlignTextTop" size="24" />
-<Icon type="Components" size="24" />
-<Icon type="BlockTen" size="24" />
-<Icon type="FileCollection" size="24" />
-<Icon type="AfferentThree" size="24" />
-<Icon type="DatabaseNetwork" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="AvocadoOne" size="24" />
+<Icon type="Average" size="24" />
+<Icon type="Boxing" size="24" />
+<Icon type="AreaMap" size="24" />
+<Icon type="BarberClippers" size="24" />
+<Icon type="BoltOne" size="24" />
+<Icon type="AppStore" size="24" />
+<Icon type="Dislike" size="24" />
+<Icon type="BroadcastOne" size="24" />
+<Icon type="EnterKey" size="24" />
       </div>
     )
   }

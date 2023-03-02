@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d5/f0.jsx'
+import Component__1 from './d5/f1.jsx'
+import Component__2 from './d5/f2.jsx'
+import Component__3 from './d5/f3.jsx'
+import Component__4 from './d5/f4.jsx'
+import Component__5 from './d5/f5.jsx'
+import Component__6 from './d5/f6.jsx'
+import Component__7 from './d5/f7.jsx'
+import Component__8 from './d5/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="AfroPick" size="24" />
-<Icon type="AstonishedFace" size="24" />
-<Icon type="CycleArrow" size="24" />
-<Icon type="Cruise" size="24" />
-<Icon type="Cup" size="24" />
-<Icon type="DamageMap" size="24" />
-<Icon type="CubeFive" size="24" />
-<Icon type="Appointment" size="24" />
-<Icon type="AlignmentRightTop" size="24" />
-<Icon type="BytedanceMiniApp" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Add" size="24" />
+<Icon type="Chair" size="24" />
+<Icon type="BabyApp" size="24" />
+<Icon type="Buy" size="24" />
+<Icon type="EiffelTower" size="24" />
+<Icon type="Adjustment" size="24" />
+<Icon type="Box" size="24" />
+<Icon type="AlignHorizontally" size="24" />
+<Icon type="CornerRightUp" size="24" />
+<Icon type="ClickTapTwo" size="24" />
       </div>
     )
   }

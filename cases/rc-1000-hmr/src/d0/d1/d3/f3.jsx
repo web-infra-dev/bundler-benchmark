@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d3/f0.jsx'
+import Component__1 from './d3/f1.jsx'
+import Component__2 from './d3/f2.jsx'
+import Component__3 from './d3/f3.jsx'
+import Component__4 from './d3/f4.jsx'
+import Component__5 from './d3/f5.jsx'
+import Component__6 from './d3/f6.jsx'
+import Component__7 from './d3/f7.jsx'
+import Component__8 from './d3/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="CollectionRecords" size="24" />
-<Icon type="DoubleBed" size="24" />
-<Icon type="AlignmentHorizontalBottom" size="24" />
-<Icon type="Drumstick" size="24" />
-<Icon type="First" size="24" />
-<Icon type="FileText" size="24" />
-<Icon type="Dog" size="24" />
-<Icon type="ColorCard" size="24" />
-<Icon type="DamageMap" size="24" />
-<Icon type="FigmaComponent" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="BubbleChart" size="24" />
+<Icon type="Change" size="24" />
+<Icon type="ACane" size="24" />
+<Icon type="CornerLeftDown" size="24" />
+<Icon type="CornerRightUp" size="24" />
+<Icon type="CircleDoubleUp" size="24" />
+<Icon type="FileTipsOne" size="24" />
+<Icon type="AirBike" size="24" />
+<Icon type="DatabaseConfig" size="24" />
+<Icon type="ConfusedFace" size="24" />
       </div>
     )
   }

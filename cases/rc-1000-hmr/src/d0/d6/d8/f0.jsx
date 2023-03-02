@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d0/f0.jsx'
+import Component__1 from './d0/f1.jsx'
+import Component__2 from './d0/f2.jsx'
+import Component__3 from './d0/f3.jsx'
+import Component__4 from './d0/f4.jsx'
+import Component__5 from './d0/f5.jsx'
+import Component__6 from './d0/f6.jsx'
+import Component__7 from './d0/f7.jsx'
+import Component__8 from './d0/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="CameraOne" size="24" />
-<Icon type="Down" size="24" />
-<Icon type="FileHidingOne" size="24" />
-<Icon type="DataSwitching" size="24" />
-<Icon type="Croissant" size="24" />
-<Icon type="DeskLamp" size="24" />
-<Icon type="BringToFront" size="24" />
-<Icon type="Female" size="24" />
-<Icon type="CircleDoubleLeft" size="24" />
-<Icon type="FileText" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Consume" size="24" />
+<Icon type="FileQuestion" size="24" />
+<Icon type="ApplicationTwo" size="24" />
+<Icon type="Checkbox" size="24" />
+<Icon type="CollectPicture" size="24" />
+<Icon type="DeleteThree" size="24" />
+<Icon type="ConceptSharing" size="24" />
+<Icon type="CastScreen" size="24" />
+<Icon type="FlightAirflow" size="24" />
+<Icon type="CycleArrow" size="24" />
       </div>
     )
   }

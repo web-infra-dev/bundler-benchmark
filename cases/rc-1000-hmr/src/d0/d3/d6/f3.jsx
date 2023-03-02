@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d3/f0.jsx'
+import Component__1 from './d3/f1.jsx'
+import Component__2 from './d3/f2.jsx'
+import Component__3 from './d3/f3.jsx'
+import Component__4 from './d3/f4.jsx'
+import Component__5 from './d3/f5.jsx'
+import Component__6 from './d3/f6.jsx'
+import Component__7 from './d3/f7.jsx'
+import Component__8 from './d3/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="BoltOne" size="24" />
-<Icon type="BuildingThree" size="24" />
-<Icon type="AlarmClock" size="24" />
-<Icon type="ConfusedFace" size="24" />
-<Icon type="DivingSuit" size="24" />
-<Icon type="CircleLeftUp" size="24" />
-<Icon type="ExpandLeft" size="24" />
-<Icon type="Cycle" size="24" />
-<Icon type="Cola" size="24" />
-<Icon type="Elephant" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Cat" size="24" />
+<Icon type="Dropbox" size="24" />
+<Icon type="FFourKey" size="24" />
+<Icon type="DownloadThree" size="24" />
+<Icon type="ApplicationEffect" size="24" />
+<Icon type="FileTipsOne" size="24" />
+<Icon type="AutoLineHeight" size="24" />
+<Icon type="BatteryWorking" size="24" />
+<Icon type="DataTwo" size="24" />
+<Icon type="Agreement" size="24" />
       </div>
     )
   }

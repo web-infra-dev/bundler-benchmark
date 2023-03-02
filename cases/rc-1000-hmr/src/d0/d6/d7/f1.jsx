@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d1/f0.jsx'
+import Component__1 from './d1/f1.jsx'
+import Component__2 from './d1/f2.jsx'
+import Component__3 from './d1/f3.jsx'
+import Component__4 from './d1/f4.jsx'
+import Component__5 from './d1/f5.jsx'
+import Component__6 from './d1/f6.jsx'
+import Component__7 from './d1/f7.jsx'
+import Component__8 from './d1/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="AutoWidthOne" size="24" />
-<Icon type="BatteryEmpty" size="24" />
-<Icon type="DeleteOne" size="24" />
-<Icon type="Check" size="24" />
-<Icon type="Filter" size="24" />
-<Icon type="EnglishMustache" size="24" />
-<Icon type="FileDateOne" size="24" />
-<Icon type="CubeThree" size="24" />
-<Icon type="FSixKey" size="24" />
-<Icon type="DatabasePower" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Dome" size="24" />
+<Icon type="CollectPicture" size="24" />
+<Icon type="CloudyNight" size="24" />
+<Icon type="CupOne" size="24" />
+<Icon type="Fishing" size="24" />
+<Icon type="Display" size="24" />
+<Icon type="DataLock" size="24" />
+<Icon type="DisabledPicture" size="24" />
+<Icon type="FenceOne" size="24" />
+<Icon type="DropShadowRight" size="24" />
       </div>
     )
   }

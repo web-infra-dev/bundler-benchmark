@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d0/f0.jsx'
+import Component__1 from './d0/f1.jsx'
+import Component__2 from './d0/f2.jsx'
+import Component__3 from './d0/f3.jsx'
+import Component__4 from './d0/f4.jsx'
+import Component__5 from './d0/f5.jsx'
+import Component__6 from './d0/f6.jsx'
+import Component__7 from './d0/f7.jsx'
+import Component__8 from './d0/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="AlignmentLeftCenter" size="24" />
-<Icon type="Connect" size="24" />
-<Icon type="Cheese" size="24" />
-<Icon type="CattleZodiac" size="24" />
-<Icon type="AppSwitch" size="24" />
-<Icon type="FingerprintTwo" size="24" />
-<Icon type="FingerprintThree" size="24" />
-<Icon type="Adjustment" size="24" />
-<Icon type="BridgeOne" size="24" />
-<Icon type="FSixKey" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Add" size="24" />
+<Icon type="DatabaseDownload" size="24" />
+<Icon type="BachelorCap" size="24" />
+<Icon type="AudioFile" size="24" />
+<Icon type="FileDisplay" size="24" />
+<Icon type="ChartPie" size="24" />
+<Icon type="Flashlamp" size="24" />
+<Icon type="CableCar" size="24" />
+<Icon type="DownSquare" size="24" />
+<Icon type="AvocadoOne" size="24" />
       </div>
     )
   }

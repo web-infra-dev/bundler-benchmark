@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d1/f0.jsx'
+import Component__1 from './d1/f1.jsx'
+import Component__2 from './d1/f2.jsx'
+import Component__3 from './d1/f3.jsx'
+import Component__4 from './d1/f4.jsx'
+import Component__5 from './d1/f5.jsx'
+import Component__6 from './d1/f6.jsx'
+import Component__7 from './d1/f7.jsx'
+import Component__8 from './d1/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="ExcelOne" size="24" />
-<Icon type="CityOne" size="24" />
-<Icon type="AutoLineHeight" size="24" />
-<Icon type="BabyMeal" size="24" />
-<Icon type="ErrorPicture" size="24" />
-<Icon type="FileStaff" size="24" />
-<Icon type="FireExtinguisher" size="24" />
-<Icon type="ConfoundedFace" size="24" />
-<Icon type="FileStaffOne" size="24" />
-<Icon type="FenceOne" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Bowl" size="24" />
+<Icon type="FileRemoval" size="24" />
+<Icon type="AlignmentLeftTop" size="24" />
+<Icon type="ClickTap" size="24" />
+<Icon type="DataAll" size="24" />
+<Icon type="EmailSecurity" size="24" />
+<Icon type="Comments" size="24" />
+<Icon type="CameraFive" size="24" />
+<Icon type="CircleDoubleRight" size="24" />
+<Icon type="Avatar" size="24" />
       </div>
     )
   }

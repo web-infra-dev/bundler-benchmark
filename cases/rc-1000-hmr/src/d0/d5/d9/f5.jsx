@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d5/f0.jsx'
+import Component__1 from './d5/f1.jsx'
+import Component__2 from './d5/f2.jsx'
+import Component__3 from './d5/f3.jsx'
+import Component__4 from './d5/f4.jsx'
+import Component__5 from './d5/f5.jsx'
+import Component__6 from './d5/f6.jsx'
+import Component__7 from './d5/f7.jsx'
+import Component__8 from './d5/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="CornerLeftDown" size="24" />
-<Icon type="Eeg" size="24" />
-<Icon type="Copy" size="24" />
-<Icon type="DropShadowUp" size="24" />
-<Icon type="Airplay" size="24" />
-<Icon type="FenceOne" size="24" />
-<Icon type="Asterisk" size="24" />
-<Icon type="Comment" size="24" />
-<Icon type="EditName" size="24" />
-<Icon type="Faceu" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="ExchangeThree" size="24" />
+<Icon type="Customer" size="24" />
+<Icon type="Drink" size="24" />
+<Icon type="AfroPick" size="24" />
+<Icon type="DownOne" size="24" />
+<Icon type="CornerRightDown" size="24" />
+<Icon type="FileCollection" size="24" />
+<Icon type="Bookshelf" size="24" />
+<Icon type="BatteryFailure" size="24" />
+<Icon type="ContrastView" size="24" />
       </div>
     )
   }

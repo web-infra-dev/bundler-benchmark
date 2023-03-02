@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d6/f0.jsx'
+import Component__1 from './d6/f1.jsx'
+import Component__2 from './d6/f2.jsx'
+import Component__3 from './d6/f3.jsx'
+import Component__4 from './d6/f4.jsx'
+import Component__5 from './d6/f5.jsx'
+import Component__6 from './d6/f6.jsx'
+import Component__7 from './d6/f7.jsx'
+import Component__8 from './d6/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Cutting" size="24" />
-<Icon type="FileSettingsOne" size="24" />
-<Icon type="EngineeringVehicle" size="24" />
-<Icon type="Chili" size="24" />
-<Icon type="ExclusiveGateway" size="24" />
-<Icon type="ChartLine" size="24" />
-<Icon type="FiveKey" size="24" />
-<Icon type="FileGif" size="24" />
-<Icon type="Castle" size="24" />
-<Icon type="BarberBrush" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Creative" size="24" />
+<Icon type="Book" size="24" />
+<Icon type="Bydesign" size="24" />
+<Icon type="ElectronicLocksClose" size="24" />
+<Icon type="Edit" size="24" />
+<Icon type="Cattle" size="24" />
+<Icon type="Entertainment" size="24" />
+<Icon type="BowlOne" size="24" />
+<Icon type="ColorCard" size="24" />
+<Icon type="AppletClosed" size="24" />
       </div>
     )
   }

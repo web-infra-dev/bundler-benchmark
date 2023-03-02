@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d7/f0.jsx'
+import Component__1 from './d7/f1.jsx'
+import Component__2 from './d7/f2.jsx'
+import Component__3 from './d7/f3.jsx'
+import Component__4 from './d7/f4.jsx'
+import Component__5 from './d7/f5.jsx'
+import Component__6 from './d7/f6.jsx'
+import Component__7 from './d7/f7.jsx'
+import Component__8 from './d7/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="DiamondNecklace" size="24" />
-<Icon type="Enquire" size="24" />
-<Icon type="ConnectAddressOne" size="24" />
-<Icon type="DeleteFour" size="24" />
-<Icon type="CakeFour" size="24" />
-<Icon type="ApiApp" size="24" />
-<Icon type="CalendarThirty" size="24" />
-<Icon type="Contrast" size="24" />
-<Icon type="FigmaFlattenSelection" size="24" />
-<Icon type="BalanceOne" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="BedsideTwo" size="24" />
+<Icon type="CodeOne" size="24" />
+<Icon type="FileCollectionOne" size="24" />
+<Icon type="CooperativeHandshake" size="24" />
+<Icon type="DatabaseProportion" size="24" />
+<Icon type="Chest" size="24" />
+<Icon type="ChartLine" size="24" />
+<Icon type="ElectricIron" size="24" />
+<Icon type="Apple" size="24" />
+<Icon type="DeskLamp" size="24" />
       </div>
     )
   }

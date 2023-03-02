@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d7/f0.jsx'
+import Component__1 from './d7/f1.jsx'
+import Component__2 from './d7/f2.jsx'
+import Component__3 from './d7/f3.jsx'
+import Component__4 from './d7/f4.jsx'
+import Component__5 from './d7/f5.jsx'
+import Component__6 from './d7/f6.jsx'
+import Component__7 from './d7/f7.jsx'
+import Component__8 from './d7/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="DataAll" size="24" />
-<Icon type="CloseRemind" size="24" />
-<Icon type="Beer" size="24" />
-<Icon type="Fitness" size="24" />
-<Icon type="Equalizer" size="24" />
-<Icon type="AlignTextMiddleOne" size="24" />
-<Icon type="BulletMap" size="24" />
-<Icon type="ExpandDown" size="24" />
-<Icon type="DownloadFour" size="24" />
-<Icon type="DegreeHat" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Devices" size="24" />
+<Icon type="Blossom" size="24" />
+<Icon type="DiskOne" size="24" />
+<Icon type="FileDisplayOne" size="24" />
+<Icon type="CodeDownload" size="24" />
+<Icon type="AsteriskKey" size="24" />
+<Icon type="ChartRing" size="24" />
+<Icon type="EthernetOn" size="24" />
+<Icon type="DoubleBed" size="24" />
+<Icon type="Cool" size="24" />
       </div>
     )
   }

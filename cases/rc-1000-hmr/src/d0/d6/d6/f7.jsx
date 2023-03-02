@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d7/f0.jsx'
+import Component__1 from './d7/f1.jsx'
+import Component__2 from './d7/f2.jsx'
+import Component__3 from './d7/f3.jsx'
+import Component__4 from './d7/f4.jsx'
+import Component__5 from './d7/f5.jsx'
+import Component__6 from './d7/f6.jsx'
+import Component__7 from './d7/f7.jsx'
+import Component__8 from './d7/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="FigmaResetInstance" size="24" />
-<Icon type="EndpointDisplacement" size="24" />
-<Icon type="BellRing" size="24" />
-<Icon type="ComputerOne" size="24" />
-<Icon type="ChafingDish" size="24" />
-<Icon type="Behance" size="24" />
-<Icon type="Croissant" size="24" />
-<Icon type="BreadOne" size="24" />
-<Icon type="Bluetooth" size="24" />
-<Icon type="Envelope" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Cell" size="24" />
+<Icon type="DoubleBed" size="24" />
+<Icon type="Comment" size="24" />
+<Icon type="CakeOne" size="24" />
+<Icon type="FileSearchOne" size="24" />
+<Icon type="Earth" size="24" />
+<Icon type="DatabaseLock" size="24" />
+<Icon type="Curling" size="24" />
+<Icon type="BlockTwo" size="24" />
+<Icon type="Belt" size="24" />
       </div>
     )
   }

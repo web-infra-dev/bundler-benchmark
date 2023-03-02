@@ -41,16 +41,16 @@ import Component__17 from './d9/f8.jsx'
 <Component__15/>
 <Component__16/>
 <Component__17/>
-      <Icon type="DashboardCar" size="24" />
-<Icon type="ACane" size="24" />
-<Icon type="Boots" size="24" />
-<Icon type="EmailDown" size="24" />
-<Icon type="Bone" size="24" />
-<Icon type="Airplay" size="24" />
-<Icon type="DeleteMode" size="24" />
-<Icon type="Cruise" size="24" />
-<Icon type="EditMovie" size="24" />
-<Icon type="Average" size="24" />
+      <Icon type="ChafingDish" size="24" />
+<Icon type="FileLock" size="24" />
+<Icon type="ClickToFold" size="24" />
+<Icon type="ClothesDiapers" size="24" />
+<Icon type="BridgeTwo" size="24" />
+<Icon type="Bus" size="24" />
+<Icon type="CalculatorOne" size="24" />
+<Icon type="Balance" size="24" />
+<Icon type="CodeBrackets" size="24" />
+<Icon type="CastScreen" size="24" />
       </div>
     )
   }

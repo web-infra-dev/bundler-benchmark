@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d3/f0.jsx'
+import Component__1 from './d3/f1.jsx'
+import Component__2 from './d3/f2.jsx'
+import Component__3 from './d3/f3.jsx'
+import Component__4 from './d3/f4.jsx'
+import Component__5 from './d3/f5.jsx'
+import Component__6 from './d3/f6.jsx'
+import Component__7 from './d3/f7.jsx'
+import Component__8 from './d3/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="AddSubtract" size="24" />
-<Icon type="Dianziqian" size="24" />
-<Icon type="CalculatorOne" size="24" />
-<Icon type="EngineeringVehicle" size="24" />
-<Icon type="ChartHistogramOne" size="24" />
-<Icon type="BringForward" size="24" />
-<Icon type="FileCodeOne" size="24" />
-<Icon type="Bookmark" size="24" />
-<Icon type="AutoWidth" size="24" />
-<Icon type="Drumstick" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="CornerDownLeft" size="24" />
+<Icon type="Ambulance" size="24" />
+<Icon type="ApplicationMenu" size="24" />
+<Icon type="AddSubset" size="24" />
+<Icon type="DamageMap" size="24" />
+<Icon type="DomeLight" size="24" />
+<Icon type="EditName" size="24" />
+<Icon type="Cc" size="24" />
+<Icon type="DataFile" size="24" />
+<Icon type="DislikeTwo" size="24" />
       </div>
     )
   }

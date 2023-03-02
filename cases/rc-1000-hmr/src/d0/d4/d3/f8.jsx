@@ -2,21 +2,55 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d8/f0.jsx'
+import Component__1 from './d8/f1.jsx'
+import Component__2 from './d8/f2.jsx'
+import Component__3 from './d8/f3.jsx'
+import Component__4 from './d8/f4.jsx'
+import Component__5 from './d8/f5.jsx'
+import Component__6 from './d8/f6.jsx'
+import Component__7 from './d8/f7.jsx'
+import Component__8 from './d8/f8.jsx'
+import Component__9 from './d9/f0.jsx'
+import Component__10 from './d9/f1.jsx'
+import Component__11 from './d9/f2.jsx'
+import Component__12 from './d9/f3.jsx'
+import Component__13 from './d9/f4.jsx'
+import Component__14 from './d9/f5.jsx'
+import Component__15 from './d9/f6.jsx'
+import Component__16 from './d9/f7.jsx'
+import Component__17 from './d9/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="DatabasePower" size="24" />
-<Icon type="ApplicationMenu" size="24" />
-<Icon type="Candy" size="24" />
-<Icon type="ExpandLeft" size="24" />
-<Icon type="FileSearch" size="24" />
-<Icon type="ClothesSkates" size="24" />
-<Icon type="Butterfly" size="24" />
-<Icon type="Cloudy" size="24" />
-<Icon type="DownSmall" size="24" />
-<Icon type="DropDownList" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+<Component__9/>
+<Component__10/>
+<Component__11/>
+<Component__12/>
+<Component__13/>
+<Component__14/>
+<Component__15/>
+<Component__16/>
+<Component__17/>
+      <Icon type="BachelorCapOne" size="24" />
+<Icon type="BuildingThree" size="24" />
+<Icon type="AlignTextBottom" size="24" />
+<Icon type="Fan" size="24" />
+<Icon type="Apple" size="24" />
+<Icon type="Command" size="24" />
+<Icon type="DatabaseFirst" size="24" />
+<Icon type="FinancingTwo" size="24" />
+<Icon type="Experiment" size="24" />
+<Icon type="AngryFace" size="24" />
       </div>
     )
   }

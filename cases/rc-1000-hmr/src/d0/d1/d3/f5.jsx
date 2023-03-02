@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d5/f0.jsx'
+import Component__1 from './d5/f1.jsx'
+import Component__2 from './d5/f2.jsx'
+import Component__3 from './d5/f3.jsx'
+import Component__4 from './d5/f4.jsx'
+import Component__5 from './d5/f5.jsx'
+import Component__6 from './d5/f6.jsx'
+import Component__7 from './d5/f7.jsx'
+import Component__8 from './d5/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="ApplicationTwo" size="24" />
-<Icon type="FileDoc" size="24" />
-<Icon type="ExcelOne" size="24" />
-<Icon type="BowlOne" size="24" />
-<Icon type="Computer" size="24" />
-<Icon type="ExperimentOne" size="24" />
-<Icon type="Bless" size="24" />
-<Icon type="Block" size="24" />
-<Icon type="CornerRightUp" size="24" />
-<Icon type="CircleDoubleLeft" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="BuildingFour" size="24" />
+<Icon type="BeachUmbrella" size="24" />
+<Icon type="FileMusic" size="24" />
+<Icon type="EnvelopeOne" size="24" />
+<Icon type="ChafingDish" size="24" />
+<Icon type="ArrowRightUp" size="24" />
+<Icon type="BasketballOne" size="24" />
+<Icon type="BatteryFull" size="24" />
+<Icon type="Bowling" size="24" />
+<Icon type="ArrowCircleDown" size="24" />
       </div>
     )
   }

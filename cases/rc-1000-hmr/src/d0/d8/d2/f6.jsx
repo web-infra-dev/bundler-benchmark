@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d6/f0.jsx'
+import Component__1 from './d6/f1.jsx'
+import Component__2 from './d6/f2.jsx'
+import Component__3 from './d6/f3.jsx'
+import Component__4 from './d6/f4.jsx'
+import Component__5 from './d6/f5.jsx'
+import Component__6 from './d6/f6.jsx'
+import Component__7 from './d6/f7.jsx'
+import Component__8 from './d6/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="AlignTextBothOne" size="24" />
-<Icon type="CenterAlignment" size="24" />
-<Icon type="Bat" size="24" />
-<Icon type="FileJpg" size="24" />
-<Icon type="FileHiding" size="24" />
-<Icon type="Drumstick" size="24" />
-<Icon type="Chip" size="24" />
-<Icon type="CollectComputer" size="24" />
-<Icon type="BreadOne" size="24" />
-<Icon type="BoyTwo" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="EiffelTower" size="24" />
+<Icon type="Chili" size="24" />
+<Icon type="AddSubset" size="24" />
+<Icon type="FiveEllipses" size="24" />
+<Icon type="AutoWidth" size="24" />
+<Icon type="DumbbelLine" size="24" />
+<Icon type="DatabasePoint" size="24" />
+<Icon type="BachelorCapTwo" size="24" />
+<Icon type="Envelope" size="24" />
+<Icon type="FOneKey" size="24" />
       </div>
     )
   }

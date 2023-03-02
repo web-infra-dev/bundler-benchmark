@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d5/f0.jsx'
+import Component__1 from './d5/f1.jsx'
+import Component__2 from './d5/f2.jsx'
+import Component__3 from './d5/f3.jsx'
+import Component__4 from './d5/f4.jsx'
+import Component__5 from './d5/f5.jsx'
+import Component__6 from './d5/f6.jsx'
+import Component__7 from './d5/f7.jsx'
+import Component__8 from './d5/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="AlignmentHorizontalTop" size="24" />
-<Icon type="CloseWifi" size="24" />
-<Icon type="DeathStar" size="24" />
-<Icon type="BoosterCarSeat" size="24" />
-<Icon type="DivingSuit" size="24" />
-<Icon type="ExcelOne" size="24" />
-<Icon type="ArrowRightDown" size="24" />
-<Icon type="Currency" size="24" />
-<Icon type="FileDoc" size="24" />
-<Icon type="Association" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Fishing" size="24" />
+<Icon type="FenceOne" size="24" />
+<Icon type="Envelope" size="24" />
+<Icon type="Crib" size="24" />
+<Icon type="AntiCorrosion" size="24" />
+<Icon type="Aries" size="24" />
+<Icon type="AlignTextBothOne" size="24" />
+<Icon type="FireExtinguisher" size="24" />
+<Icon type="FinancingTwo" size="24" />
+<Icon type="DocSuccess" size="24" />
       </div>
     )
   }

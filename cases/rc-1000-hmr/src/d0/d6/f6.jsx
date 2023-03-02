@@ -23,16 +23,16 @@ import Component__8 from './d6/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DropShadowRight" size="24" />
-<Icon type="CloseOne" size="24" />
-<Icon type="FilePdfOne" size="24" />
-<Icon type="BackgroundColor" size="24" />
-<Icon type="AlignmentTopLeft" size="24" />
-<Icon type="Bank" size="24" />
-<Icon type="CloseWifi" size="24" />
-<Icon type="Boiler" size="24" />
-<Icon type="FindOne" size="24" />
-<Icon type="Fish" size="24" />
+      <Icon type="FileEditing" size="24" />
+<Icon type="ChildWithPacifier" size="24" />
+<Icon type="DatabaseCode" size="24" />
+<Icon type="DownloadLaptop" size="24" />
+<Icon type="CornerLeftUp" size="24" />
+<Icon type="BabyCarSeat" size="24" />
+<Icon type="ElectronicLocksOpen" size="24" />
+<Icon type="AlignTextLeft" size="24" />
+<Icon type="AperturePriority" size="24" />
+<Icon type="Bless" size="24" />
       </div>
     )
   }

@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d6/f0.jsx'
+import Component__1 from './d6/f1.jsx'
+import Component__2 from './d6/f2.jsx'
+import Component__3 from './d6/f3.jsx'
+import Component__4 from './d6/f4.jsx'
+import Component__5 from './d6/f5.jsx'
+import Component__6 from './d6/f6.jsx'
+import Component__7 from './d6/f7.jsx'
+import Component__8 from './d6/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="ChartStock" size="24" />
-<Icon type="Earth" size="24" />
-<Icon type="Association" size="24" />
-<Icon type="ArrowCircleUp" size="24" />
-<Icon type="Adjustment" size="24" />
-<Icon type="DistributeVertically" size="24" />
-<Icon type="Cutting" size="24" />
-<Icon type="DataFile" size="24" />
-<Icon type="Beauty" size="24" />
-<Icon type="DropShadowUp" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="AlignmentLeftTop" size="24" />
+<Icon type="FerrisWheel" size="24" />
+<Icon type="DivingBottle" size="24" />
+<Icon type="FigmaFlattenSelection" size="24" />
+<Icon type="DeathStar" size="24" />
+<Icon type="CircleFiveLine" size="24" />
+<Icon type="ChurchOne" size="24" />
+<Icon type="Cone" size="24" />
+<Icon type="Clap" size="24" />
+<Icon type="Currency" size="24" />
       </div>
     )
   }

@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d4/f0.jsx'
+import Component__1 from './d4/f1.jsx'
+import Component__2 from './d4/f2.jsx'
+import Component__3 from './d4/f3.jsx'
+import Component__4 from './d4/f4.jsx'
+import Component__5 from './d4/f5.jsx'
+import Component__6 from './d4/f6.jsx'
+import Component__7 from './d4/f7.jsx'
+import Component__8 from './d4/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="FilePpt" size="24" />
-<Icon type="Bluetooth" size="24" />
-<Icon type="FileJpg" size="24" />
-<Icon type="DeathStar" size="24" />
-<Icon type="Bug" size="24" />
-<Icon type="DatabaseFirst" size="24" />
-<Icon type="Badminton" size="24" />
-<Icon type="CheckIn" size="24" />
-<Icon type="BabyBottle" size="24" />
-<Icon type="Cattle" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="DeleteOne" size="24" />
+<Icon type="Experiment" size="24" />
+<Icon type="BarberClippers" size="24" />
+<Icon type="ContrastView" size="24" />
+<Icon type="Airpods" size="24" />
+<Icon type="FlightAirflow" size="24" />
+<Icon type="AddressBook" size="24" />
+<Icon type="BlockOne" size="24" />
+<Icon type="FileHiding" size="24" />
+<Icon type="EngineeringBrand" size="24" />
       </div>
     )
   }

@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d7/f0.jsx'
+import Component__1 from './d7/f1.jsx'
+import Component__2 from './d7/f2.jsx'
+import Component__3 from './d7/f3.jsx'
+import Component__4 from './d7/f4.jsx'
+import Component__5 from './d7/f5.jsx'
+import Component__6 from './d7/f6.jsx'
+import Component__7 from './d7/f7.jsx'
+import Component__8 from './d7/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Bytedance" size="24" />
-<Icon type="DatabaseLock" size="24" />
-<Icon type="FingerprintThree" size="24" />
-<Icon type="DataSheet" size="24" />
-<Icon type="DownTwo" size="24" />
-<Icon type="ChafingDish" size="24" />
-<Icon type="Direction" size="24" />
-<Icon type="EmailSecurity" size="24" />
-<Icon type="AutoWidth" size="24" />
-<Icon type="Bus" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Expenses" size="24" />
+<Icon type="Consume" size="24" />
+<Icon type="Acoustic" size="24" />
+<Icon type="Boiler" size="24" />
+<Icon type="BlockThree" size="24" />
+<Icon type="Bird" size="24" />
+<Icon type="Find" size="24" />
+<Icon type="DataThree" size="24" />
+<Icon type="AlignTextRightOne" size="24" />
+<Icon type="Checkbox" size="24" />
       </div>
     )
   }

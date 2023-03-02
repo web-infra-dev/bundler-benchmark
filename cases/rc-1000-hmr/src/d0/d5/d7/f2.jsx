@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d2/f0.jsx'
+import Component__1 from './d2/f1.jsx'
+import Component__2 from './d2/f2.jsx'
+import Component__3 from './d2/f3.jsx'
+import Component__4 from './d2/f4.jsx'
+import Component__5 from './d2/f5.jsx'
+import Component__6 from './d2/f6.jsx'
+import Component__7 from './d2/f7.jsx'
+import Component__8 from './d2/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Endless" size="24" />
-<Icon type="FingerprintTwo" size="24" />
-<Icon type="DoubleRight" size="24" />
-<Icon type="CheckOne" size="24" />
-<Icon type="Dumbbell" size="24" />
-<Icon type="Fire" size="24" />
-<Icon type="Expenses" size="24" />
-<Icon type="DatabaseSetting" size="24" />
-<Icon type="DeleteFour" size="24" />
-<Icon type="Backpack" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="ClockTower" size="24" />
+<Icon type="Fingerprint" size="24" />
+<Icon type="Endless" size="24" />
+<Icon type="Detection" size="24" />
+<Icon type="Computer" size="24" />
+<Icon type="EnterTheKeyboard" size="24" />
+<Icon type="Dubai" size="24" />
+<Icon type="BowlOne" size="24" />
+<Icon type="Cat" size="24" />
+<Icon type="ExpandDownOne" size="24" />
       </div>
     )
   }

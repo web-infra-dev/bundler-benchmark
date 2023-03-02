@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d4/f0.jsx'
+import Component__1 from './d4/f1.jsx'
+import Component__2 from './d4/f2.jsx'
+import Component__3 from './d4/f3.jsx'
+import Component__4 from './d4/f4.jsx'
+import Component__5 from './d4/f5.jsx'
+import Component__6 from './d4/f6.jsx'
+import Component__7 from './d4/f7.jsx'
+import Component__8 from './d4/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="Agreement" size="24" />
-<Icon type="Deposit" size="24" />
-<Icon type="ClothesPants" size="24" />
-<Icon type="Delete" size="24" />
-<Icon type="Application" size="24" />
-<Icon type="Cake" size="24" />
-<Icon type="ClothesHoodie" size="24" />
-<Icon type="Eggplant" size="24" />
-<Icon type="AutoWidthOne" size="24" />
-<Icon type="Bird" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="AntiCorrosion" size="24" />
+<Icon type="ExpandLeftAndRight" size="24" />
+<Icon type="DividingLine" size="24" />
+<Icon type="DropShadowLeft" size="24" />
+<Icon type="ColorFilter" size="24" />
+<Icon type="BarCode" size="24" />
+<Icon type="AddressBook" size="24" />
+<Icon type="DigitalWatches" size="24" />
+<Icon type="EfferentFour" size="24" />
+<Icon type="ArrowRight" size="24" />
       </div>
     )
   }

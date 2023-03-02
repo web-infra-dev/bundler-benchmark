@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d0/f0.jsx'
+import Component__1 from './d0/f1.jsx'
+import Component__2 from './d0/f2.jsx'
+import Component__3 from './d0/f3.jsx'
+import Component__4 from './d0/f4.jsx'
+import Component__5 from './d0/f5.jsx'
+import Component__6 from './d0/f6.jsx'
+import Component__7 from './d0/f7.jsx'
+import Component__8 from './d0/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="CollectLaptop" size="24" />
-<Icon type="FileFocus" size="24" />
-<Icon type="AlignTextTopOne" size="24" />
-<Icon type="CubeFour" size="24" />
-<Icon type="Copyright" size="24" />
-<Icon type="DumbbelLine" size="24" />
-<Icon type="ChessOne" size="24" />
-<Icon type="CircleLeftUp" size="24" />
-<Icon type="Barbecue" size="24" />
-<Icon type="AlignmentHorizontalCenter" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="Dot" size="24" />
+<Icon type="AddMode" size="24" />
+<Icon type="BarCode" size="24" />
+<Icon type="FireExtinguisherOne" size="24" />
+<Icon type="ClothesTurtleneck" size="24" />
+<Icon type="BatteryWorking" size="24" />
+<Icon type="AdobeLightroom" size="24" />
+<Icon type="Calculator" size="24" />
+<Icon type="DashboardTwo" size="24" />
+<Icon type="FacialCleanser" size="24" />
       </div>
     )
   }

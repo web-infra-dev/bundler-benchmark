@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d0/f0.jsx'
+import Component__1 from './d0/f1.jsx'
+import Component__2 from './d0/f2.jsx'
+import Component__3 from './d0/f3.jsx'
+import Component__4 from './d0/f4.jsx'
+import Component__5 from './d0/f5.jsx'
+import Component__6 from './d0/f6.jsx'
+import Component__7 from './d0/f7.jsx'
+import Component__8 from './d0/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="CakeFive" size="24" />
-<Icon type="Command" size="24" />
-<Icon type="ExpandUp" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="ExcelOne" size="24" />
+<Icon type="FTwoKey" size="24" />
+<Icon type="CircleTwoLine" size="24" />
+<Icon type="ArrowLeft" size="24" />
+<Icon type="AfroPick" size="24" />
+<Icon type="AirplaneWindowOne" size="24" />
 <Icon type="Find" size="24" />
-<Icon type="ConnectionArrow" size="24" />
-<Icon type="Cc" size="24" />
-<Icon type="DatabaseAlert" size="24" />
-<Icon type="BabyBottle" size="24" />
-<Icon type="Fan" size="24" />
-<Icon type="FileFocus" size="24" />
+<Icon type="Drink" size="24" />
+<Icon type="BringToFrontOne" size="24" />
+<Icon type="DataArrival" size="24" />
       </div>
     )
   }

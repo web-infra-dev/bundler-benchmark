@@ -2,21 +2,37 @@
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
 
-  
+  import Component__0 from './d4/f0.jsx'
+import Component__1 from './d4/f1.jsx'
+import Component__2 from './d4/f2.jsx'
+import Component__3 from './d4/f3.jsx'
+import Component__4 from './d4/f4.jsx'
+import Component__5 from './d4/f5.jsx'
+import Component__6 from './d4/f6.jsx'
+import Component__7 from './d4/f7.jsx'
+import Component__8 from './d4/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
-      
-      <Icon type="DatabaseSetting" size="24" />
-<Icon type="BigClock" size="24" />
-<Icon type="BasketballStand" size="24" />
-<Icon type="Easy" size="24" />
-<Icon type="ArcDeTriomphe" size="24" />
-<Icon type="Booth" size="24" />
-<Icon type="FileCodeOne" size="24" />
-<Icon type="Currency" size="24" />
-<Icon type="City" size="24" />
-<Icon type="AlignVerticalCenterTwo" size="24" />
+      <Component__0/>
+<Component__1/>
+<Component__2/>
+<Component__3/>
+<Component__4/>
+<Component__5/>
+<Component__6/>
+<Component__7/>
+<Component__8/>
+      <Icon type="DatabaseSearch" size="24" />
+<Icon type="FlightAirflow" size="24" />
+<Icon type="DocSuccess" size="24" />
+<Icon type="DataLock" size="24" />
+<Icon type="DirectionAdjustmentThree" size="24" />
+<Icon type="ChartLineArea" size="24" />
+<Icon type="DropShadowRight" size="24" />
+<Icon type="FileAddition" size="24" />
+<Icon type="Anchor" size="24" />
+<Icon type="CenterAlignment" size="24" />
       </div>
     )
   }
