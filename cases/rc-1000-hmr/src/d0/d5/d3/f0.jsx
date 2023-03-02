@@ -23,16 +23,7 @@ import Component__8 from './d0/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DistributeVertically" size="24" />
-<Icon type="DifferenceSet" size="24" />
-<Icon type="BabyPants" size="24" />
-<Icon type="ExpandTextInput" size="24" />
-<Icon type="ChartProportion" size="24" />
-<Icon type="AlignmentLeftTop" size="24" />
-<Icon type="Bowl" size="24" />
-<Icon type="Afferent" size="24" />
-<Icon type="FileWithdrawalOne" size="24" />
-<Icon type="CooperativeHandshake" size="24" />
+      <Icon type="Afferent" size="24" />
       </div>
     )
   }

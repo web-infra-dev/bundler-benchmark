@@ -41,16 +41,7 @@ import Component__17 from './d9/f8.jsx'
 <Component__15/>
 <Component__16/>
 <Component__17/>
-      <Icon type="Camera" size="24" />
-<Icon type="ErrorComputer" size="24" />
-<Icon type="ExperimentOne" size="24" />
-<Icon type="Basketball" size="24" />
-<Icon type="DatabaseAlert" size="24" />
-<Icon type="DoubleBed" size="24" />
-<Icon type="CircleRightDown" size="24" />
-<Icon type="AcceptEmail" size="24" />
-<Icon type="Ad" size="24" />
-<Icon type="Boots" size="24" />
+      <Icon type="DiskTwo" size="24" />
       </div>
     )
   }

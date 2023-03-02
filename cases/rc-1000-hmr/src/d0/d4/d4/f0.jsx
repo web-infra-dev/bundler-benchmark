@@ -23,16 +23,7 @@ import Component__8 from './d0/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="EndTimeSort" size="24" />
-<Icon type="Bird" size="24" />
-<Icon type="CoconutTree" size="24" />
-<Icon type="FaceWithoutMouth" size="24" />
-<Icon type="Dollar" size="24" />
-<Icon type="BatteryTips" size="24" />
-<Icon type="CurveAdjustment" size="24" />
-<Icon type="DatabaseCode" size="24" />
-<Icon type="Five" size="24" />
-<Icon type="ArrowRightUp" size="24" />
+      <Icon type="EndpointDisplacement" size="24" />
       </div>
     )
   }

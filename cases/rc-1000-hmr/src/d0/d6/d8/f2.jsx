@@ -23,16 +23,7 @@ import Component__8 from './d2/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="ChartHistogram" size="24" />
-<Icon type="BlockTen" size="24" />
-<Icon type="DocSearch" size="24" />
-<Icon type="Comments" size="24" />
-<Icon type="CollectionRecords" size="24" />
-<Icon type="ClickTap" size="24" />
-<Icon type="AlignHorizontally" size="24" />
-<Icon type="AutoFocus" size="24" />
-<Icon type="Fill" size="24" />
-<Icon type="EnterKey" size="24" />
+      <Icon type="Fingernail" size="24" />
       </div>
     )
   }

@@ -23,16 +23,7 @@ import Component__8 from './d3/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="FileMusic" size="24" />
-<Icon type="ExpandRight" size="24" />
-<Icon type="AppletClosed" size="24" />
-<Icon type="Chair" size="24" />
-<Icon type="ActivitySource" size="24" />
-<Icon type="AddComputer" size="24" />
-<Icon type="Bow" size="24" />
-<Icon type="CheckIn" size="24" />
-<Icon type="BatteryStorage" size="24" />
-<Icon type="DatabaseSync" size="24" />
+      <Icon type="BachelorCapOne" size="24" />
       </div>
     )
   }

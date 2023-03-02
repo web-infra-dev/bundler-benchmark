@@ -23,16 +23,7 @@ import Component__8 from './d4/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DroneOne" size="24" />
-<Icon type="AlignTextBottom" size="24" />
-<Icon type="EndpointRound" size="24" />
-<Icon type="CloseWifi" size="24" />
-<Icon type="BottleOne" size="24" />
-<Icon type="CookingPot" size="24" />
-<Icon type="AlignTextTopOne" size="24" />
-<Icon type="EditName" size="24" />
-<Icon type="Endless" size="24" />
-<Icon type="AlignTop" size="24" />
+      <Icon type="CarouselVideo" size="24" />
       </div>
     )
   }

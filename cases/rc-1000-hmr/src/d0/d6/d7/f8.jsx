@@ -41,16 +41,7 @@ import Component__17 from './d9/f8.jsx'
 <Component__15/>
 <Component__16/>
 <Component__17/>
-      <Icon type="ContrastView" size="24" />
-<Icon type="Family" size="24" />
-<Icon type="Boxing" size="24" />
-<Icon type="Detection" size="24" />
-<Icon type="Cherry" size="24" />
-<Icon type="Candy" size="24" />
-<Icon type="FileCollectionOne" size="24" />
-<Icon type="Components" size="24" />
-<Icon type="EnterKey" size="24" />
-<Icon type="AdobeIllustrate" size="24" />
+      <Icon type="ApiApp" size="24" />
       </div>
     )
   }

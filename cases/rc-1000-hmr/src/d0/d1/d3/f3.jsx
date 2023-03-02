@@ -23,16 +23,7 @@ import Component__8 from './d3/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="BubbleChart" size="24" />
-<Icon type="Change" size="24" />
-<Icon type="ACane" size="24" />
-<Icon type="CornerLeftDown" size="24" />
-<Icon type="CornerRightUp" size="24" />
-<Icon type="CircleDoubleUp" size="24" />
-<Icon type="FileTipsOne" size="24" />
-<Icon type="AirBike" size="24" />
-<Icon type="DatabaseConfig" size="24" />
-<Icon type="ConfusedFace" size="24" />
+      <Icon type="Connect" size="24" />
       </div>
     )
   }

@@ -41,16 +41,7 @@ import Component__17 from './d9/f8.jsx'
 <Component__15/>
 <Component__16/>
 <Component__17/>
-      <Icon type="DarkMode" size="24" />
-<Icon type="FireTwo" size="24" />
-<Icon type="BankTransfer" size="24" />
-<Icon type="Bottle" size="24" />
-<Icon type="ChangeDateSort" size="24" />
-<Icon type="CategoryManagement" size="24" />
-<Icon type="ChartPieOne" size="24" />
-<Icon type="CircleDoubleDown" size="24" />
-<Icon type="DatabaseNetwork" size="24" />
-<Icon type="CupOne" size="24" />
+      <Icon type="ArrowRight" size="24" />
       </div>
     )
   }

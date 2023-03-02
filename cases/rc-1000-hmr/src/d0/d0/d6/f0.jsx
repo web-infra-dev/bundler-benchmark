@@ -23,16 +23,7 @@ import Component__8 from './d0/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="FireExtinguisherOne" size="24" />
-<Icon type="AlignmentHorizontalBottom" size="24" />
-<Icon type="DiskTwo" size="24" />
-<Icon type="Airplane" size="24" />
-<Icon type="AssemblyLine" size="24" />
-<Icon type="DocFail" size="24" />
-<Icon type="Close" size="24" />
-<Icon type="Bus" size="24" />
-<Icon type="ApplicationEffect" size="24" />
-<Icon type="CooperativeHandshake" size="24" />
+      <Icon type="CheckCorrect" size="24" />
       </div>
     )
   }

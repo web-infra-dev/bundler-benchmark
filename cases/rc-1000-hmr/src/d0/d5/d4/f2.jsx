@@ -23,16 +23,7 @@ import Component__8 from './d2/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="Dolphin" size="24" />
-<Icon type="Feiyu" size="24" />
-<Icon type="DamageMap" size="24" />
-<Icon type="CircleRightDown" size="24" />
-<Icon type="FileText" size="24" />
-<Icon type="FileGif" size="24" />
-<Icon type="CircleThree" size="24" />
-<Icon type="AddSubtract" size="24" />
-<Icon type="AlignTextBottom" size="24" />
-<Icon type="DeleteFive" size="24" />
+      <Icon type="DisappointedFace" size="24" />
       </div>
     )
   }

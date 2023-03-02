@@ -41,16 +41,7 @@ import Component__17 from './d9/f8.jsx'
 <Component__15/>
 <Component__16/>
 <Component__17/>
-      <Icon type="BrowserSafari" size="24" />
-<Icon type="Camp" size="24" />
-<Icon type="Barbecue" size="24" />
-<Icon type="Conditioner" size="24" />
-<Icon type="ExternalTransmission" size="24" />
-<Icon type="Fanqiexiaoshuo" size="24" />
-<Icon type="Deeplink" size="24" />
-<Icon type="BaseballBat" size="24" />
-<Icon type="BrowserChrome" size="24" />
-<Icon type="DoubleDown" size="24" />
+      <Icon type="BadTwo" size="24" />
       </div>
     )
   }

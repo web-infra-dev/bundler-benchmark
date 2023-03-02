@@ -23,16 +23,7 @@ import Component__8 from './d4/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="Eyes" size="24" />
-<Icon type="Curling" size="24" />
-<Icon type="Devices" size="24" />
-<Icon type="AlignBottom" size="24" />
-<Icon type="DownloadTwo" size="24" />
-<Icon type="DistributeVerticalSpacing" size="24" />
-<Icon type="DiskOne" size="24" />
-<Icon type="CameraTwo" size="24" />
-<Icon type="BatteryStorage" size="24" />
-<Icon type="Airplay" size="24" />
+      <Icon type="Baokemeng" size="24" />
       </div>
     )
   }

@@ -7,16 +7,7 @@
     return (
       <div>
       
-      <Icon type="DomeLight" size="24" />
-<Icon type="AlignmentVerticalRight" size="24" />
-<Icon type="BadTwo" size="24" />
-<Icon type="Bread" size="24" />
-<Icon type="ChoppingBoard" size="24" />
-<Icon type="AlignTextLeftOne" size="24" />
-<Icon type="EndpointDisplacement" size="24" />
-<Icon type="CoffeeMachine" size="24" />
-<Icon type="Eyebrow" size="24" />
-<Icon type="CoffeeMachine" size="24" />
+      <Icon type="EmailBlock" size="24" />
       </div>
     )
   }

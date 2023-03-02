@@ -7,16 +7,7 @@
     return (
       <div>
       
-      <Icon type="CreationDateSort" size="24" />
-<Icon type="AlignmentTopCenter" size="24" />
-<Icon type="DatabaseSync" size="24" />
-<Icon type="Erase" size="24" />
-<Icon type="AlignmentHorizontalTop" size="24" />
-<Icon type="AlignmentTopRight" size="24" />
-<Icon type="CollectPicture" size="24" />
-<Icon type="DeathStar" size="24" />
-<Icon type="EmailDown" size="24" />
-<Icon type="FireExtinguisherOne" size="24" />
+      <Icon type="BabyBottle" size="24" />
       </div>
     )
   }

@@ -23,16 +23,7 @@ import Component__8 from './d0/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DigitalWatches" size="24" />
-<Icon type="EmailPush" size="24" />
-<Icon type="Editor" size="24" />
-<Icon type="CircleLeftUp" size="24" />
-<Icon type="ErrorPicture" size="24" />
-<Icon type="AlignmentTopRight" size="24" />
-<Icon type="ConfusedFace" size="24" />
-<Icon type="ChartGraph" size="24" />
-<Icon type="ChildrenCap" size="24" />
-<Icon type="BigClock" size="24" />
+      <Icon type="ClothesPantsShort" size="24" />
       </div>
     )
   }

@@ -23,16 +23,7 @@ import Component__8 from './d0/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="FaceRecognition" size="24" />
-<Icon type="CameraFour" size="24" />
-<Icon type="FileSearch" size="24" />
-<Icon type="BellRing" size="24" />
-<Icon type="Come" size="24" />
-<Icon type="Export" size="24" />
-<Icon type="BoyTwo" size="24" />
-<Icon type="BlockNine" size="24" />
-<Icon type="Add" size="24" />
-<Icon type="AtSign" size="24" />
+      <Icon type="Coronavirus" size="24" />
       </div>
     )
   }

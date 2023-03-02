@@ -7,16 +7,7 @@
     return (
       <div>
       
-      <Icon type="AddSubtract" size="24" />
-<Icon type="Aiming" size="24" />
-<Icon type="DirectionAdjustmentTwo" size="24" />
-<Icon type="FileFocusOne" size="24" />
-<Icon type="DataUser" size="24" />
-<Icon type="FileProtection" size="24" />
-<Icon type="FiveEllipses" size="24" />
-<Icon type="CirclesAndTriangles" size="24" />
-<Icon type="AlignTextRight" size="24" />
-<Icon type="Change" size="24" />
+      <Icon type="DoneAll" size="24" />
       </div>
     )
   }

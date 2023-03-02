@@ -23,16 +23,7 @@ import Component__8 from './d3/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="Eggplant" size="24" />
-<Icon type="ConnectionPointTwo" size="24" />
-<Icon type="Dome" size="24" />
-<Icon type="CoconutTree" size="24" />
-<Icon type="FileFailedOne" size="24" />
-<Icon type="AssemblyLine" size="24" />
-<Icon type="Editor" size="24" />
-<Icon type="DirectionAdjustment" size="24" />
-<Icon type="AnchorOne" size="24" />
-<Icon type="AddPic" size="24" />
+      <Icon type="Bluetooth" size="24" />
       </div>
     )
   }

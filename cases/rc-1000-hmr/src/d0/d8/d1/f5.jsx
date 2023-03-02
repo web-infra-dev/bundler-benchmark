@@ -23,16 +23,7 @@ import Component__8 from './d5/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DocAdd" size="24" />
-<Icon type="ChartGraph" size="24" />
-<Icon type="FigmaResetInstance" size="24" />
-<Icon type="DeleteThree" size="24" />
-<Icon type="Cola" size="24" />
-<Icon type="FilePdf" size="24" />
-<Icon type="CircleDoubleDown" size="24" />
-<Icon type="BottleThree" size="24" />
-<Icon type="BlocksAndArrows" size="24" />
-<Icon type="Envelope" size="24" />
+      <Icon type="CircleFourLine" size="24" />
       </div>
     )
   }

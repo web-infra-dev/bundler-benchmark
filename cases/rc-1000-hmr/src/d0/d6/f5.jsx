@@ -23,16 +23,7 @@ import Component__8 from './d5/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="ApiApp" size="24" />
-<Icon type="Faceu" size="24" />
-<Icon type="FileFailed" size="24" />
-<Icon type="AcceptEmail" size="24" />
-<Icon type="AlarmClock" size="24" />
-<Icon type="EnvelopeOne" size="24" />
-<Icon type="Cat" size="24" />
-<Icon type="AddTextTwo" size="24" />
-<Icon type="EmailLock" size="24" />
-<Icon type="DoubleDown" size="24" />
+      <Icon type="DataArrival" size="24" />
       </div>
     )
   }

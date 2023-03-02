@@ -23,16 +23,7 @@ import Component__8 from './d4/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="EmailBlock" size="24" />
-<Icon type="FileQuestion" size="24" />
-<Icon type="ConfusedFace" size="24" />
-<Icon type="DataArrival" size="24" />
-<Icon type="DataScreen" size="24" />
-<Icon type="ArrowKeys" size="24" />
-<Icon type="CornerRightDown" size="24" />
-<Icon type="FileText" size="24" />
-<Icon type="EmailLock" size="24" />
-<Icon type="CommentOne" size="24" />
+      <Icon type="ErrorPrompt" size="24" />
       </div>
     )
   }

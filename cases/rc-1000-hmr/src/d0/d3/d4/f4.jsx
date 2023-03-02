@@ -23,16 +23,7 @@ import Component__8 from './d4/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DatabaseSearch" size="24" />
-<Icon type="FlightAirflow" size="24" />
-<Icon type="DocSuccess" size="24" />
-<Icon type="DataLock" size="24" />
-<Icon type="DirectionAdjustmentThree" size="24" />
-<Icon type="ChartLineArea" size="24" />
-<Icon type="DropShadowRight" size="24" />
-<Icon type="FileAddition" size="24" />
-<Icon type="Anchor" size="24" />
-<Icon type="CenterAlignment" size="24" />
+      <Icon type="AlignBottom" size="24" />
       </div>
     )
   }

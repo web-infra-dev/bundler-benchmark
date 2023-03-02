@@ -23,16 +23,7 @@ import Component__8 from './d6/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DataServer" size="24" />
-<Icon type="FileTxt" size="24" />
-<Icon type="AppStore" size="24" />
-<Icon type="FileSettingsOne" size="24" />
-<Icon type="BowlOne" size="24" />
-<Icon type="Block" size="24" />
-<Icon type="CalendarDot" size="24" />
-<Icon type="Anchor" size="24" />
-<Icon type="DoneAll" size="24" />
-<Icon type="CornerRightUp" size="24" />
+      <Icon type="EightKey" size="24" />
       </div>
     )
   }

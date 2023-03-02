@@ -7,16 +7,7 @@
     return (
       <div>
       
-      <Icon type="AfferentThree" size="24" />
-<Icon type="DataArrival" size="24" />
-<Icon type="Dot" size="24" />
-<Icon type="Egg" size="24" />
-<Icon type="BirthdayCake" size="24" />
-<Icon type="EndpointDisplacement" size="24" />
-<Icon type="ExclusiveGateway" size="24" />
-<Icon type="ConnectionArrow" size="24" />
-<Icon type="Brightness" size="24" />
-<Icon type="BezierCurve" size="24" />
+      <Icon type="AlignTextLeft" size="24" />
       </div>
     )
   }

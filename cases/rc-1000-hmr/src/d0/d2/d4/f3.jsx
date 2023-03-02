@@ -23,16 +23,7 @@ import Component__8 from './d3/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DataArrival" size="24" />
-<Icon type="Empty" size="24" />
-<Icon type="DropDownList" size="24" />
-<Icon type="DoubleBed" size="24" />
-<Icon type="AfroPick" size="24" />
-<Icon type="Data" size="24" />
-<Icon type="Flashlight" size="24" />
-<Icon type="EightKey" size="24" />
-<Icon type="ExpandTextInput" size="24" />
-<Icon type="AlignmentTopCenter" size="24" />
+      <Icon type="Fishing" size="24" />
       </div>
     )
   }

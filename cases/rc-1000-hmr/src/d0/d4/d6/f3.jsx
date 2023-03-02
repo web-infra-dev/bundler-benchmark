@@ -23,16 +23,7 @@ import Component__8 from './d3/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="ChartScatter" size="24" />
-<Icon type="DashboardTwo" size="24" />
-<Icon type="CeMarking" size="24" />
-<Icon type="ArrowLeft" size="24" />
-<Icon type="Boiler" size="24" />
-<Icon type="ClothesShortSleeve" size="24" />
-<Icon type="AutoWidth" size="24" />
-<Icon type="FileQuestion" size="24" />
-<Icon type="DatabaseFirst" size="24" />
-<Icon type="DatabaseFail" size="24" />
+      <Icon type="ChartLine" size="24" />
       </div>
     )
   }

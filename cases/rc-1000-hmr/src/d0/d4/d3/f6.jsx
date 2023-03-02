@@ -23,16 +23,7 @@ import Component__8 from './d6/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DeskLampOne" size="24" />
-<Icon type="BringToFrontOne" size="24" />
-<Icon type="Attention" size="24" />
-<Icon type="ChartScatter" size="24" />
-<Icon type="ElectricWave" size="24" />
-<Icon type="FileProtectionOne" size="24" />
-<Icon type="AlignmentLeftTop" size="24" />
-<Icon type="Bookshelf" size="24" />
-<Icon type="DomeLight" size="24" />
-<Icon type="Barbecue" size="24" />
+      <Icon type="AlignTextTopOne" size="24" />
       </div>
     )
   }

@@ -23,16 +23,7 @@ import Component__8 from './d5/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="FileFailed" size="24" />
-<Icon type="FileSearchOne" size="24" />
-<Icon type="Curling" size="24" />
-<Icon type="DatabaseEnter" size="24" />
-<Icon type="Checkbox" size="24" />
-<Icon type="ConnectionArrow" size="24" />
-<Icon type="First" size="24" />
-<Icon type="FileCollection" size="24" />
-<Icon type="EqualRatio" size="24" />
-<Icon type="DocDetail" size="24" />
+      <Icon type="Fill" size="24" />
       </div>
     )
   }

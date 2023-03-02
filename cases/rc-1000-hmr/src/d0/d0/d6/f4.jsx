@@ -23,16 +23,7 @@ import Component__8 from './d4/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="CircleFiveLine" size="24" />
-<Icon type="DoneAll" size="24" />
-<Icon type="CreationDateSort" size="24" />
-<Icon type="CameraFive" size="24" />
-<Icon type="Eyebrow" size="24" />
-<Icon type="EditMovie" size="24" />
-<Icon type="BalanceTwo" size="24" />
-<Icon type="ContrastViewCircle" size="24" />
-<Icon type="ConfusedFace" size="24" />
-<Icon type="FilterOne" size="24" />
+      <Icon type="Abnormal" size="24" />
       </div>
     )
   }

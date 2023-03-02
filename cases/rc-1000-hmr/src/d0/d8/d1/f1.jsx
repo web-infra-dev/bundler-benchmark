@@ -23,16 +23,7 @@ import Component__8 from './d1/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="Escalators" size="24" />
-<Icon type="AlignmentHorizontalTop" size="24" />
-<Icon type="CoconutTree" size="24" />
-<Icon type="Apple" size="24" />
-<Icon type="CodeBrackets" size="24" />
-<Icon type="DownSquare" size="24" />
-<Icon type="AlignmentVerticalLeft" size="24" />
-<Icon type="Correct" size="24" />
-<Icon type="DiamondRing" size="24" />
-<Icon type="DataScreen" size="24" />
+      <Icon type="FileMusicOne" size="24" />
       </div>
     )
   }

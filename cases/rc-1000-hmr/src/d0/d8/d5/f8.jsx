@@ -41,16 +41,7 @@ import Component__17 from './d9/f8.jsx'
 <Component__15/>
 <Component__16/>
 <Component__17/>
-      <Icon type="BroadcastRadio" size="24" />
-<Icon type="AlignTextTop" size="24" />
-<Icon type="DeleteThemes" size="24" />
-<Icon type="Bloom" size="24" />
-<Icon type="Bib" size="24" />
-<Icon type="AlignmentVerticalRight" size="24" />
-<Icon type="Flashlight" size="24" />
-<Icon type="Command" size="24" />
-<Icon type="Checkerboard" size="24" />
-<Icon type="AlignTextBothOne" size="24" />
+      <Icon type="Creative" size="24" />
       </div>
     )
   }

@@ -23,16 +23,7 @@ import Component__8 from './d4/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="CollapseTextInput" size="24" />
-<Icon type="ArrowCircleRight" size="24" />
-<Icon type="FileProtection" size="24" />
-<Icon type="FigmaResetInstance" size="24" />
-<Icon type="DropShadowUp" size="24" />
-<Icon type="Comb" size="24" />
-<Icon type="CalendarThree" size="24" />
-<Icon type="AlignVertically" size="24" />
-<Icon type="Feelgood" size="24" />
-<Icon type="City" size="24" />
+      <Icon type="DocFail" size="24" />
       </div>
     )
   }

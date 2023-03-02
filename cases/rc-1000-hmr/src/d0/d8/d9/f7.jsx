@@ -23,16 +23,7 @@ import Component__8 from './d7/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="Distortion" size="24" />
-<Icon type="Arithmetic" size="24" />
-<Icon type="CornerLeftDown" size="24" />
-<Icon type="FileHidingOne" size="24" />
-<Icon type="Figma" size="24" />
-<Icon type="AdobeIllustrate" size="24" />
-<Icon type="DocFail" size="24" />
-<Icon type="Cycle" size="24" />
-<Icon type="ArithmeticButtons" size="24" />
-<Icon type="Backpack" size="24" />
+      <Icon type="BadTwo" size="24" />
       </div>
     )
   }

@@ -41,16 +41,7 @@ import Component__17 from './d9/f8.jsx'
 <Component__15/>
 <Component__16/>
 <Component__17/>
-      <Icon type="Circus" size="24" />
-<Icon type="Baokemeng" size="24" />
-<Icon type="AtSign" size="24" />
-<Icon type="CycleMovement" size="24" />
-<Icon type="DisabaledWeb" size="24" />
-<Icon type="ClearFormat" size="24" />
-<Icon type="FilterOne" size="24" />
-<Icon type="FThreeKey" size="24" />
-<Icon type="FileWithdrawalOne" size="24" />
-<Icon type="EmailSuccessfully" size="24" />
+      <Icon type="CodeBrackets" size="24" />
       </div>
     )
   }

@@ -23,16 +23,7 @@ import Component__8 from './d3/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="Comments" size="24" />
-<Icon type="DatabaseSuccess" size="24" />
-<Icon type="BigX" size="24" />
-<Icon type="CornerLeftDown" size="24" />
-<Icon type="FileRemoval" size="24" />
-<Icon type="FileProtection" size="24" />
-<Icon type="DiamondTwo" size="24" />
-<Icon type="CurveAdjustment" size="24" />
-<Icon type="AlignmentVerticalRight" size="24" />
-<Icon type="FigmaFlattenSelection" size="24" />
+      <Icon type="DatabasePoint" size="24" />
       </div>
     )
   }

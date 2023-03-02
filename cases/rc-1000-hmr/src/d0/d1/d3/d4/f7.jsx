@@ -7,16 +7,7 @@
     return (
       <div>
       
-      <Icon type="FinancingTwo" size="24" />
-<Icon type="Circus" size="24" />
-<Icon type="FigmaComponent" size="24" />
-<Icon type="CuttingOne" size="24" />
-<Icon type="Connection" size="24" />
-<Icon type="DizzyFace" size="24" />
-<Icon type="FNineKey" size="24" />
-<Icon type="CubeThree" size="24" />
-<Icon type="DatabaseSuccess" size="24" />
-<Icon type="AfroPick" size="24" />
+      <Icon type="Creative" size="24" />
       </div>
     )
   }

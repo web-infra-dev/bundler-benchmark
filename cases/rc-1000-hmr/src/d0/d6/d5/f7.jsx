@@ -23,16 +23,7 @@ import Component__8 from './d7/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DatabaseSetting" size="24" />
-<Icon type="DiskTwo" size="24" />
-<Icon type="ColorFilter" size="24" />
-<Icon type="Blossom" size="24" />
-<Icon type="DocAdd" size="24" />
-<Icon type="FerrisWheel" size="24" />
-<Icon type="ChargingTreasure" size="24" />
-<Icon type="Afferent" size="24" />
-<Icon type="AlignmentTopCenter" size="24" />
-<Icon type="Feiyu" size="24" />
+      <Icon type="CeMarking" size="24" />
       </div>
     )
   }

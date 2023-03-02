@@ -23,16 +23,7 @@ import Component__8 from './d6/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="FileQuality" size="24" />
-<Icon type="Airpods" size="24" />
-<Icon type="CompassOne" size="24" />
-<Icon type="DiamondNecklace" size="24" />
-<Icon type="FileSuccess" size="24" />
-<Icon type="DatabaseSuccess" size="24" />
-<Icon type="ExclusiveGateway" size="24" />
-<Icon type="CircleHouse" size="24" />
-<Icon type="DoubleRight" size="24" />
-<Icon type="FileConversion" size="24" />
+      <Icon type="BoxingOne" size="24" />
       </div>
     )
   }

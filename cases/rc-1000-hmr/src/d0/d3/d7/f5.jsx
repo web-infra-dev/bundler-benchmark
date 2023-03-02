@@ -23,16 +23,7 @@ import Component__8 from './d5/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="AppStore" size="24" />
-<Icon type="Airplay" size="24" />
-<Icon type="Aries" size="24" />
-<Icon type="ClothesPants" size="24" />
-<Icon type="DirectionAdjustmentTwo" size="24" />
-<Icon type="EiffelTower" size="24" />
-<Icon type="CookingPot" size="24" />
-<Icon type="FileEditingOne" size="24" />
-<Icon type="Column" size="24" />
-<Icon type="AlignHorizontalCenterTwo" size="24" />
+      <Icon type="BeerMug" size="24" />
       </div>
     )
   }

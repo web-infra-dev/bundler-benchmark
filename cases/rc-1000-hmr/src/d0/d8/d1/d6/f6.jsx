@@ -7,16 +7,7 @@
     return (
       <div>
       
-      <Icon type="Android" size="24" />
-<Icon type="DownSmall" size="24" />
-<Icon type="DistributeVerticalSpacing" size="24" />
-<Icon type="Acceleration" size="24" />
-<Icon type="BreadOne" size="24" />
-<Icon type="Eagle" size="24" />
-<Icon type="Empty" size="24" />
-<Icon type="FileFailed" size="24" />
-<Icon type="DeleteFive" size="24" />
-<Icon type="ExpandLeftAndRight" size="24" />
+      <Icon type="Correct" size="24" />
       </div>
     )
   }

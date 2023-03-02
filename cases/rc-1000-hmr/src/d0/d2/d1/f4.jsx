@@ -23,16 +23,7 @@ import Component__8 from './d4/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="FileAdditionOne" size="24" />
-<Icon type="ConvergingGateway" size="24" />
-<Icon type="CloseSmall" size="24" />
-<Icon type="DocAdd" size="24" />
-<Icon type="CornerDownRight" size="24" />
-<Icon type="AllApplication" size="24" />
-<Icon type="CakeFour" size="24" />
-<Icon type="AdjacentItem" size="24" />
-<Icon type="FacebookOne" size="24" />
-<Icon type="DirectionAdjustment" size="24" />
+      <Icon type="DataArrival" size="24" />
       </div>
     )
   }

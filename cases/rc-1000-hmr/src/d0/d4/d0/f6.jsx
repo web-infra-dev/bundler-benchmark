@@ -23,16 +23,7 @@ import Component__8 from './d6/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="DirectionAdjustmentTwo" size="24" />
-<Icon type="AutoWidthOne" size="24" />
-<Icon type="FenceTwo" size="24" />
-<Icon type="BadgeTwo" size="24" />
-<Icon type="Coupon" size="24" />
-<Icon type="Flag" size="24" />
-<Icon type="Back" size="24" />
-<Icon type="Checkbox" size="24" />
-<Icon type="BlockOne" size="24" />
-<Icon type="ActivitySource" size="24" />
+      <Icon type="ConnectAddressTwo" size="24" />
       </div>
     )
   }

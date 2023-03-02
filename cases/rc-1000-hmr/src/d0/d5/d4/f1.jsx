@@ -23,16 +23,7 @@ import Component__8 from './d1/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="Dianziqian" size="24" />
-<Icon type="FileLockOne" size="24" />
-<Icon type="Bookmark" size="24" />
-<Icon type="AlignBottom" size="24" />
-<Icon type="BookmarkOne" size="24" />
-<Icon type="AdobeIndesign" size="24" />
-<Icon type="ArrowCircleDown" size="24" />
-<Icon type="BringToFront" size="24" />
-<Icon type="EditTwo" size="24" />
-<Icon type="AddSubset" size="24" />
+      <Icon type="Family" size="24" />
       </div>
     )
   }

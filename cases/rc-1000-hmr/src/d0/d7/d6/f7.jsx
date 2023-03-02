@@ -23,16 +23,7 @@ import Component__8 from './d7/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="AperturePriority" size="24" />
-<Icon type="CodeDownload" size="24" />
-<Icon type="FileStaffOne" size="24" />
-<Icon type="AnchorSqure" size="24" />
-<Icon type="AddOne" size="24" />
-<Icon type="DataFile" size="24" />
-<Icon type="Ambulance" size="24" />
-<Icon type="Distortion" size="24" />
-<Icon type="BatteryFailure" size="24" />
-<Icon type="DatabaseProportion" size="24" />
+      <Icon type="AlignmentHorizontalCenter" size="24" />
       </div>
     )
   }

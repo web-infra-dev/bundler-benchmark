@@ -41,16 +41,7 @@ import Component__17 from './d9/f8.jsx'
 <Component__15/>
 <Component__16/>
 <Component__17/>
-      <Icon type="Facetime" size="24" />
-<Icon type="AperturePriority" size="24" />
-<Icon type="BarCode" size="24" />
-<Icon type="ArrowDown" size="24" />
-<Icon type="Fingerprint" size="24" />
-<Icon type="Cc" size="24" />
-<Icon type="FileText" size="24" />
-<Icon type="BubbleChart" size="24" />
-<Icon type="Detection" size="24" />
-<Icon type="AssemblyLine" size="24" />
+      <Icon type="FindOne" size="24" />
       </div>
     )
   }

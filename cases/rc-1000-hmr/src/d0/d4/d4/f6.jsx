@@ -23,16 +23,7 @@ import Component__8 from './d6/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="Cloudy" size="24" />
-<Icon type="FileHidingOne" size="24" />
-<Icon type="AdjacentItem" size="24" />
-<Icon type="CircleRightUp" size="24" />
-<Icon type="AnchorSqure" size="24" />
-<Icon type="Direction" size="24" />
-<Icon type="Bye" size="24" />
-<Icon type="FlightAirflow" size="24" />
-<Icon type="CircleDoubleRight" size="24" />
-<Icon type="BridgeOne" size="24" />
+      <Icon type="Certificate" size="24" />
       </div>
     )
   }

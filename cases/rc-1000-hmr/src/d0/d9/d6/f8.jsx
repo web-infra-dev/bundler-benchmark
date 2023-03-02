@@ -41,16 +41,7 @@ import Component__17 from './d9/f8.jsx'
 <Component__15/>
 <Component__16/>
 <Component__17/>
-      <Icon type="FerrisWheel" size="24" />
-<Icon type="BatteryWorking" size="24" />
-<Icon type="ContrastViewCircle" size="24" />
-<Icon type="Coronavirus" size="24" />
-<Icon type="DataUser" size="24" />
-<Icon type="BridgeTwo" size="24" />
-<Icon type="EmailLock" size="24" />
-<Icon type="ChartPie" size="24" />
-<Icon type="ClickTap" size="24" />
-<Icon type="BezierCurve" size="24" />
+      <Icon type="ExpandLeft" size="24" />
       </div>
     )
   }
