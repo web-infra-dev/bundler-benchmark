@@ -1,12 +1,10 @@
 
   import React from 'react'
   import Icon  from '@icon-park/react/es/all';
-
   
   function Navbar({ show }) {
     return (
       <div>
-      
       <Icon type="CalendarDot" size="24" />
 <Icon type="DiamondNecklace" size="24" />
 <Icon type="Car" size="24" />
