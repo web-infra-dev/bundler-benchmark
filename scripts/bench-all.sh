@@ -19,7 +19,7 @@ export BENCHMARK_PLATFORM=$platform
 cd cases/all \
 && ls \
 && cd .. \
- echo "................." 
+ echo "................." \
 && cd atlaskit-editor \
 && ls  \
 && cd .. \
