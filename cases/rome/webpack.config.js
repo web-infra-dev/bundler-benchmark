@@ -1,14 +1,15 @@
-const { resolve } = require("path");
-const TerserPlugin = require('terser-webpack-plugin')
-const prod = process.env.NODE_ENV === 'production'
+const path = require("path");
+const TerserPlugin = require("terser-webpack-plugin");
+const prod = process.env.NODE_ENV === "production";
 /** @type {import("webpack").Configuration} */
+const internalDir = path.resolve(__dirname, "src/rome/internal");
+console.log(internalDir)
 module.exports = {
 	entry: "./src/index.ts",
 	resolve: {
 		extensions: [".ts", ".tsx", ".js"],
 		alias: {
-			"@internal": resolve(__dirname, "src/rome/internal"),
-			// rome: resolve(__dirname, "src/rome/internal/virtual-packages/rome"),
+			"@internal": internalDir,
 		},
 		fallback: {
 			inspector: false,
@@ -27,20 +28,19 @@ module.exports = {
 			readline: false,
 			child_process: false,
 			tty: false,
-
-		}
+		},
 	},
-	devtool: prod && 'source-map',
+	devtool: prod && "source-map",
 	optimization: {
 		minimize: prod,
-    minimizer: [
-      new TerserPlugin({
-        minify: TerserPlugin.swcMinify,
-        // `terserOptions` options will be passed to `swc` (`@swc/core`)
-        // Link to options - https://swc.rs/docs/config-js-minify
-        terserOptions: {},
-      }),
-    ],
+		minimizer: [
+			new TerserPlugin({
+				minify: TerserPlugin.swcMinify,
+				// `terserOptions` options will be passed to `swc` (`@swc/core`)
+				// Link to options - https://swc.rs/docs/config-js-minify
+				terserOptions: {},
+			}),
+		],
 	},
 	module: {
 		rules: [
@@ -48,7 +48,14 @@ module.exports = {
 				test: /\.ts$/,
 				exclude: /(node_modules|bower_components)/,
 				use: {
-					loader: "esbuild-loader",
+					loader: "swc-loader",
+					options: {
+						jsc: {
+							parser: {
+								syntax: "typescript",
+							},
+						},
+					},
 				},
 			},
 		],

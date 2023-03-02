@@ -1,5 +1,5 @@
 const { resolve } = require("path");
-const TerserPlugin = require('terser-webpack-plugin')
+const TerserPlugin = require("terser-webpack-plugin");
 const isProd = process.env.NODE_ENV === "production";
 /** @type {import("webpack").Configuration} */
 module.exports = {
@@ -29,17 +29,17 @@ module.exports = {
 			tty: false,
 		},
 	},
-	devtool: 'source-map',
+	devtool: "source-map",
 	optimization: {
 		minimize: isProd,
-    minimizer: [
-      new TerserPlugin({
-        minify: TerserPlugin.swcMinify,
-        // `terserOptions` options will be passed to `swc` (`@swc/core`)
-        // Link to options - https://swc.rs/docs/config-js-minify
-        terserOptions: {},
-      }),
-    ],
+		minimizer: [
+			new TerserPlugin({
+				minify: TerserPlugin.swcMinify,
+				// `terserOptions` options will be passed to `swc` (`@swc/core`)
+				// Link to options - https://swc.rs/docs/config-js-minify
+				terserOptions: {},
+			}),
+		],
 	},
 	experiments: {
 		cacheUnaffected: true,
@@ -51,6 +51,13 @@ module.exports = {
 				exclude: /(node_modules|bower_components)/,
 				use: {
 					loader: "esbuild-loader",
+					// options: {
+					// 	jsc: {
+					// 		parser: {
+					// 			syntax: "typescript",
+					// 		},
+					// 	},
+					// },
 				},
 			},
 		],
