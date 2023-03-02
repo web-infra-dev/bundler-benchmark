@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="AreaMap" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="CoordinateSystem" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DropDownList" size="24" />
       </div>
     )
   }

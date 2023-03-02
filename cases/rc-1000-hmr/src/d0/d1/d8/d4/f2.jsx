@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="AppStore" size="24" />
       </div>
     )
   }

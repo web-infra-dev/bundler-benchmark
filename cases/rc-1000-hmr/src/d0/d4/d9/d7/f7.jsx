@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DatabaseNetworkPoint" size="24" />
       </div>
     )
   }

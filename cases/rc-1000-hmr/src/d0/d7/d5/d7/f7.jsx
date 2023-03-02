@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ExpandDown" size="24" />
       </div>
     )
   }

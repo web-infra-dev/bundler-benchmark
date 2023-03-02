@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ChangeDateSort" size="24" />
       </div>
     )
   }

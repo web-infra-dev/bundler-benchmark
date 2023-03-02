@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FaceRecognition" size="24" />
       </div>
     )
   }

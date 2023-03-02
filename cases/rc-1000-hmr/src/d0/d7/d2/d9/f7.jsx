@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="AutoFocus" size="24" />
       </div>
     )
   }

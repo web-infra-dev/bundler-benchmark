@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="AddSubset" size="24" />
       </div>
     )
   }

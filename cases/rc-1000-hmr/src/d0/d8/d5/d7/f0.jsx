@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FilePdf" size="24" />
       </div>
     )
   }

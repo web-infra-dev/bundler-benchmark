@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FileWord" size="24" />
       </div>
     )
   }

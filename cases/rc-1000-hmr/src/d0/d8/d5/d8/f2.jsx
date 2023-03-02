@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="AirBike" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Flashlamp" size="24" />
       </div>
     )
   }

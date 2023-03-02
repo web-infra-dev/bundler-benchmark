@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="BankCardOne" size="24" />
       </div>
     )
   }

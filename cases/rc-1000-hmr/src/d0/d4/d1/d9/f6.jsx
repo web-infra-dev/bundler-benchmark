@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Filter" size="24" />
       </div>
     )
   }

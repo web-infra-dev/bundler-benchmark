@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Clipboard" size="24" />
       </div>
     )
   }

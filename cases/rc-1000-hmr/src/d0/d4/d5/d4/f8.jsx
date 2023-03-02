@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ChartPieOne" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="BarCode" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ContrastViewCircle" size="24" />
       </div>
     )
   }

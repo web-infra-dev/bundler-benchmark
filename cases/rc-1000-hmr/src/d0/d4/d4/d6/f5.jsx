@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FileHash" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DatabaseDownload" size="24" />
       </div>
     )
   }

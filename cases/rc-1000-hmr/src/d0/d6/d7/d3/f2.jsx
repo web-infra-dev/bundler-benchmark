@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="CrossRing" size="24" />
       </div>
     )
   }

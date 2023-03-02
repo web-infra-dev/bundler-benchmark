@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="EndpointDisplacement" size="24" />
       </div>
     )
   }

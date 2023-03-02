@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DistributeVerticalSpacing" size="24" />
       </div>
     )
   }

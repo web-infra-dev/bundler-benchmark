@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ErrorComputer" size="24" />
       </div>
     )
   }

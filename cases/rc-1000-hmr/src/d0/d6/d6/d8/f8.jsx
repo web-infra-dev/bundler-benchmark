@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="AlphabeticalSortingTwo" size="24" />
       </div>
     )
   }

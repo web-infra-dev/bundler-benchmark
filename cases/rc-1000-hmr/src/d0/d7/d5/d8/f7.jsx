@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DataThree" size="24" />
       </div>
     )
   }

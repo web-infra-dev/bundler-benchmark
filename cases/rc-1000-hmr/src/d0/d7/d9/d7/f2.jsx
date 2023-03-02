@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Alipay" size="24" />
       </div>
     )
   }

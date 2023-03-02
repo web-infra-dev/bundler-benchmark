@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="AtSign" size="24" />
       </div>
     )
   }

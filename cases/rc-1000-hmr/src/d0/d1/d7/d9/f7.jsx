@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ColorCard" size="24" />
       </div>
     )
   }

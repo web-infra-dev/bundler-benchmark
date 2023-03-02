@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ArrowCircleDown" size="24" />
       </div>
     )
   }

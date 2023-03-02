@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DifferenceSet" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ConnectionPoint" size="24" />
       </div>
     )
   }

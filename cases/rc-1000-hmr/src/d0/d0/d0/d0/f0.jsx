@@ -1,13 +1,16 @@
 
-  import React from 'react'
+  import React, {useEffect} from 'react'
   import Icon  from '@icon-park/react/es/all';
 
   
   function Navbar({ show }) {
+    useEffect(() => {
+      console.log(Date.now());
+    })
     return (
       <div>
-      
-      <Icon type="Camera" size="24" />
+      <span> .</span>
+      {Date.now()}
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="AutoWidth" size="24" />
       </div>
     )
   }

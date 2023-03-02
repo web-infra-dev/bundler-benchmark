@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ExcelOne" size="24" />
       </div>
     )
   }

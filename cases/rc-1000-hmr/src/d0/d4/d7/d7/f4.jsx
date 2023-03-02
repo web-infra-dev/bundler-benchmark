@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="BulletMap" size="24" />
       </div>
     )
   }

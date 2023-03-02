@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="CastScreen" size="24" />
       </div>
     )
   }

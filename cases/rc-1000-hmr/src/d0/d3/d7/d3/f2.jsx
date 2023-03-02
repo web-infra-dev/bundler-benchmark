@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DownloadLaptop" size="24" />
       </div>
     )
   }

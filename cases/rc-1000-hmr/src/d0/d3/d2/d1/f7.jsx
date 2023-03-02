@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DatabaseSync" size="24" />
       </div>
     )
   }

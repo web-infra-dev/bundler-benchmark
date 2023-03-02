@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ConnectAddressOne" size="24" />
       </div>
     )
   }

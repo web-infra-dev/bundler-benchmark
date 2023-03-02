@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ChartHistogramTwo" size="24" />
       </div>
     )
   }

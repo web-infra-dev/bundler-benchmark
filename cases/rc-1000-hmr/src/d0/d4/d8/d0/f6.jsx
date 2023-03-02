@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Deeplink" size="24" />
       </div>
     )
   }

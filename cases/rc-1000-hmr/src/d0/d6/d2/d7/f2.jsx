@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ActivitySource" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="EiffelTower" size="24" />
       </div>
     )
   }

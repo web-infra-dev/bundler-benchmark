@@ -3,10 +3,12 @@ import ReactDom from "react-dom/client";
 import App1 from "./src/f0";
 
 function App() {
+	useEffect(() => {
+		console.log(Date.now())
+	});
 	return (
 		<div>
-			<span>{Date.now()}</span>
-			<span>100</span>
+			<span>      i .   {Date.now()}</span>
 			<App1 />
 		</div>
 	);

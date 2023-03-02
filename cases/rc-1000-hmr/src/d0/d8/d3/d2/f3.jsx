@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="EmailDelect" size="24" />
       </div>
     )
   }

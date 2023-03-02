@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FZeroKey" size="24" />
       </div>
     )
   }

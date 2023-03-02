@@ -23,7 +23,6 @@ import Component__8 from './d2/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="Fishing" size="24" />
       </div>
     )
   }

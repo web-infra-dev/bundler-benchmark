@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DamageMap" size="24" />
       </div>
     )
   }

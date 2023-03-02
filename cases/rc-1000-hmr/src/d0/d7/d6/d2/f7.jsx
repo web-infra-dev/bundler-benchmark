@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FileText" size="24" />
       </div>
     )
   }

@@ -41,7 +41,6 @@ import Component__17 from './d9/f8.jsx'
 <Component__15/>
 <Component__16/>
 <Component__17/>
-      <Icon type="AlignRightOne" size="24" />
       </div>
     )
   }

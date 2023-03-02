@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ChartLine" size="24" />
       </div>
     )
   }

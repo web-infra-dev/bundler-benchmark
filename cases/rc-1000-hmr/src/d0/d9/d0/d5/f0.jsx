@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ConvergingGateway" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Carousel" size="24" />
       </div>
     )
   }

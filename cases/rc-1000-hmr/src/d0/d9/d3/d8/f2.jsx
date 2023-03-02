@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ExpandTextInput" size="24" />
       </div>
     )
   }

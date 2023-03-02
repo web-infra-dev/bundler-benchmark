@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="BezierCurve" size="24" />
       </div>
     )
   }

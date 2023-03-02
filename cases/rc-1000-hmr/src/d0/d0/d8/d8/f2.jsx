@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FileDate" size="24" />
       </div>
     )
   }

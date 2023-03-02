@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DropShadowUp" size="24" />
       </div>
     )
   }

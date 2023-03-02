@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DataLock" size="24" />
       </div>
     )
   }

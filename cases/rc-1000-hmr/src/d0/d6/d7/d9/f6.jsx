@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FigmaComponent" size="24" />
       </div>
     )
   }

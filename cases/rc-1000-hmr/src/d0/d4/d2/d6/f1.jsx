@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DataArrival" size="24" />
       </div>
     )
   }

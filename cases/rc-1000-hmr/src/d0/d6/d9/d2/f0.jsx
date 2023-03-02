@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="EthernetOn" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ClickTapTwo" size="24" />
       </div>
     )
   }

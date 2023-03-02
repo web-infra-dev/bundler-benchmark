@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="CornerRightUp" size="24" />
       </div>
     )
   }

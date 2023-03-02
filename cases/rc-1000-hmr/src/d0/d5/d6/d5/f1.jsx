@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Android" size="24" />
       </div>
     )
   }

@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="EndpointRound" size="24" />
       </div>
     )
   }

@@ -23,7 +23,6 @@ import Component__8 from './d1/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="CycleMovement" size="24" />
       </div>
     )
   }

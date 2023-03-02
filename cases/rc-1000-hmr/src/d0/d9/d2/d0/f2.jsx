@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FigmaFlattenSelection" size="24" />
       </div>
     )
   }

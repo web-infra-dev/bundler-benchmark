@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="CategoryManagement" size="24" />
       </div>
     )
   }

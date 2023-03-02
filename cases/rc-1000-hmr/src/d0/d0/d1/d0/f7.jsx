@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Equalizer" size="24" />
       </div>
     )
   }

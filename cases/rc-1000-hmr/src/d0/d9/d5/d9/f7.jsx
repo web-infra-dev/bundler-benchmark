@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="CenterAlignment" size="24" />
       </div>
     )
   }

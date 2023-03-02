@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="BringToFrontOne" size="24" />
       </div>
     )
   }

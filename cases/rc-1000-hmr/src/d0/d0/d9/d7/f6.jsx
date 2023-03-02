@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DirectionAdjustmentTwo" size="24" />
       </div>
     )
   }

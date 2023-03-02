@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="AdobeIndesign" size="24" />
       </div>
     )
   }

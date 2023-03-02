@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="EndTimeSort" size="24" />
       </div>
     )
   }

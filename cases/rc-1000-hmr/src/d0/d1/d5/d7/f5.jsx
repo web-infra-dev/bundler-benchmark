@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="BalanceOne" size="24" />
       </div>
     )
   }

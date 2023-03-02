@@ -23,7 +23,6 @@ import Component__8 from './d1/f8.jsx'
 <Component__6/>
 <Component__7/>
 <Component__8/>
-      <Icon type="CreationDateSort" size="24" />
       </div>
     )
   }

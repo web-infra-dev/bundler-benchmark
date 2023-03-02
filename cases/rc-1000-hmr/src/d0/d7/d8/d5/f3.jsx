@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Cardioelectric" size="24" />
       </div>
     )
   }

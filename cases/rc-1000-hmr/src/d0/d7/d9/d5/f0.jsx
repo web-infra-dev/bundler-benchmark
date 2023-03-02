@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DarkMode" size="24" />
       </div>
     )
   }

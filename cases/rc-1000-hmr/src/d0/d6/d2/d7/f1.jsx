@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ChartScatter" size="24" />
       </div>
     )
   }

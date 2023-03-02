@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="EnterTheKeyboard" size="24" />
       </div>
     )
   }

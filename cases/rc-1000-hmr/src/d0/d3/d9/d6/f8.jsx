@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="EmailLock" size="24" />
       </div>
     )
   }

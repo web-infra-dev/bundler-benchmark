@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FileHashOne" size="24" />
       </div>
     )
   }

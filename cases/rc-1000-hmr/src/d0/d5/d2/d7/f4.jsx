@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="CurveAdjustment" size="24" />
       </div>
     )
   }

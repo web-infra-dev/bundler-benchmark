@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="ElectronicDoorLock" size="24" />
       </div>
     )
   }

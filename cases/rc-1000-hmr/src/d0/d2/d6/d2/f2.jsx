@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FFourKey" size="24" />
       </div>
     )
   }

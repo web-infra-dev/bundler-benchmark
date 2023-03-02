@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Facebook" size="24" />
       </div>
     )
   }

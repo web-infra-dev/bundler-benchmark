@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="DatabaseSearch" size="24" />
       </div>
     )
   }

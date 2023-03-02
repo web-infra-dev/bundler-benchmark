@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="CloseWifi" size="24" />
       </div>
     )
   }

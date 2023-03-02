@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Find" size="24" />
       </div>
     )
   }

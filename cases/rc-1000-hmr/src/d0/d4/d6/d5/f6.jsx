@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="Afferent" size="24" />
       </div>
     )
   }

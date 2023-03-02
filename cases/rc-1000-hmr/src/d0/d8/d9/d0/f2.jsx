@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FingerprintTwo" size="24" />
       </div>
     )
   }

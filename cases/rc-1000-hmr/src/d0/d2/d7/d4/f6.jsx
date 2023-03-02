@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="FerrisWheel" size="24" />
       </div>
     )
   }

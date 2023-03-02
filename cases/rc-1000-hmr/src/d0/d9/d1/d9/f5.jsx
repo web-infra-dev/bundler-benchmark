@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="EditName" size="24" />
       </div>
     )
   }

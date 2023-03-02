@@ -7,7 +7,6 @@
     return (
       <div>
       
-      <Icon type="BigClock" size="24" />
       </div>
     )
   }
