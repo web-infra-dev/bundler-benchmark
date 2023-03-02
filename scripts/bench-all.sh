@@ -16,10 +16,10 @@ fi
 # pnpm i -r
 export BENCHMARK_PLATFORM=$platform
 
-cd cases/all \
-&& ls \
-&& cd .. \
- echo "................." \
-&& cd atlaskit-editor \
-&& ls  \
-&& cd .. \
+cd cases/all 
+ls 
+cd .. 
+echo "................." 
+cd atlaskit-editor
+ls 
+cd .. 
