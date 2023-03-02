@@ -50,14 +50,14 @@ module.exports = {
 				test: /\.ts$/,
 				exclude: /(node_modules|bower_components)/,
 				use: {
-					loader: "esbuild-loader",
-					// options: {
-					// 	jsc: {
-					// 		parser: {
-					// 			syntax: "typescript",
-					// 		},
-					// 	},
-					// },
+					loader: "swc-loader",
+					options: {
+						jsc: {
+							parser: {
+								syntax: "typescript",
+							},
+						},
+					},
 				},
 			},
 		],
