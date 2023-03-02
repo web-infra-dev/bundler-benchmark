@@ -1,4 +1,3 @@
-
 <!---benchStart-->
 # Benchmark environment
 ## Linux
@@ -25,3 +24,6 @@ Apple M1 Max 10 core, 32 GB of RAM
 
 <!---benchEnd-->
 	
+
+# Credits
+1. This hmr bench is greatly inspired by [vite-vs-next-turbo-hmr](https://github.com/yyx990803/vite-vs-next-turbo-hmr/tree/main)
