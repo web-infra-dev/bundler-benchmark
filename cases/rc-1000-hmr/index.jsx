@@ -8,7 +8,7 @@ function App() {
 	});
 	return (
 		<div>
-			<span>      i .   {Date.now()}</span>
+			<span>  {Date.now()}</span>
 			<App1 />
 		</div>
 	);
