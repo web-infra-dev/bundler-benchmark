@@ -13,13 +13,52 @@ else
   echo "platform: $platform"
 fi
 
-# pnpm i -r
 export BENCHMARK_PLATFORM=$platform
+pnpm i -r
 
 cd cases/all 
-ls 
+echo "all" 
+pnpm bench:setup
+pnpm patch:rome 
+pnpm run dev:bench
+pnpm run build:bench
 cd .. 
-echo "................." 
+
 cd atlaskit-editor
-ls 
+echo "atlaskit-editor" 
+pnpm run dev:bench
+pnpm run build:bench
 cd .. 
+
+cd common-libs
+echo "common-libs"
+pnpm run dev:bench
+pnpm run build:bench
+cd ..
+
+cd common-libs-chunks
+echo "common-libs-chunks"
+pnpm run dev:bench
+pnpm run build:bench
+cd ..
+
+cd esbuild-three
+echo "esbuild-three"
+pnpm bench:setup
+pnpm run dev:bench
+pnpm run build:bench
+cd ..
+
+cd rc-1000
+echo "rc-1000"
+pnpm run dev:bench
+pnpm run build:bench
+cd ..
+
+cd rome
+echo "rome"
+pnpm bench:setup
+pnpm patch:rome 
+pnpm run dev:bench
+pnpm run build:bench
+cd ..
