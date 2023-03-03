@@ -3,7 +3,7 @@ This repository is based on https://github.com/webpack/benchmark
 # Usage
 `./scripts/bench-all.sh ${platform}`
 
-**examples**
+**example**
 ```bash
 ./scripts/bench-all.sh linux
 ```
