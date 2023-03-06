@@ -54,8 +54,8 @@ module.exports = {
 				test: /\.ts$/,
 				exclude: /(node_modules|bower_components)/,
 				use: {
--         loader: "ts-loader",
-+         loader: "swc-loader",
+-       loader: "ts-loader",
++       loader: "swc-loader",
 +					options: {
 +						jsc: {
 +							parser: {
