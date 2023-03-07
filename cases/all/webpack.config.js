@@ -11,26 +11,9 @@ module.exports = {
 			"@internal": resolve(__dirname, "src/rome/internal"),
 			// rome: resolve(__dirname, "src/rome/internal/virtual-packages/rome"),
 		},
-		fallback: {
-			inspector: false,
-			crypto: false,
-			fs: false,
-			os: false,
-			child_process: false,
-			module: false,
-			vm: false,
-			net: false,
-			zlib: false,
-			url: false,
-			stream: false,
-			http: false,
-			https: false,
-			readline: false,
-			child_process: false,
-			tty: false,
-		},
 	},
-	devtool: "source-map",
+	target: 'node',
+	devtool: isProd && "source-map",
 	optimization: {
 		minimize: isProd,
 		minimizer: [
@@ -38,12 +21,11 @@ module.exports = {
 				minify: useSwc ? TerserPlugin.swcMinify : TerserPlugin.terserMinify,
 				// `terserOptions` options will be passed to `swc` (`@swc/core`)
 				// Link to options - https://swc.rs/docs/config-js-minify
-				terserOptions: {},
+				terserOptions: {
+					sourceMap: true
+				},
 			}),
 		],
-	},
-	experiments: {
-		cacheUnaffected: true,
 	},
 	module: {
 		rules: [
