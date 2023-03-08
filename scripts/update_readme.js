@@ -5,11 +5,15 @@ let casesDirPath = path.resolve(__dirname, "../cases");
 let casesList = fs.readdirSync(casesDirPath, "utf-8");
 
 const benchBlockReg = /<!---benchStart-->([\s\S]*)<!---benchEnd-->/;
+let excludeList = ["rc-10000-hmr"];
 for (let benchCase of casesList) {
+	if (excludeList.includes(benchCase)) {
+		continue;
+	}
 	let casePath = path.resolve(casesDirPath, benchCase);
 	const readmePath = path.resolve(casePath, "README.md");
 	if (!fs.existsSync(readmePath)) {
-		fs.writeFileSync(readmePath, `<!---benchStart--><!---benchEnd-->`)
+		fs.writeFileSync(readmePath, `<!---benchStart--><!---benchEnd-->`);
 	}
 	const generatedBlock = benchBlockGenerator(casePath);
 	let readmeContent = fs.readFileSync(readmePath, "utf-8");

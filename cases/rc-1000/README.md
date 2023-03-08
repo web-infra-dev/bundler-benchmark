@@ -8,6 +8,8 @@
 
 
 
+
+
 <!---benchStart-->
 # Benchmark environment
 
@@ -23,9 +25,9 @@ MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 ### Linux 
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `pnpm rdev` | 1.407 ± 0.030 | 1.371 | 1.459 | 1.00 |
-| `pnpm wdev` | 5.445 ± 0.073 | 5.322 | 5.551 | 3.87 ± 0.10 |
-| `pnpm pdev` | 7.675 ± 0.164 | 7.469 | 8.005 | 5.45 ± 0.17 |
+| `pnpm rdev` | 1.399 ± 0.024 | 1.352 | 1.434 | 1.00 |
+| `pnpm wdev` | 5.398 ± 0.065 | 5.319 | 5.513 | 3.86 ± 0.08 |
+| `pnpm pdev` | 7.592 ± 0.076 | 7.494 | 7.701 | 5.43 ± 0.11 |
 
 
 ### Mac
@@ -41,9 +43,9 @@ MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 ### Linux 
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `pnpm rbuild` | 4.835 ± 0.092 | 4.706 | 4.985 | 1.00 |
-| `pnpm wbuild` | 15.961 ± 0.143 | 15.629 | 16.091 | 3.30 ± 0.07 |
-| `pnpm pbuild` | 71.913 ± 2.408 | 69.367 | 76.978 | 14.87 ± 0.57 |
+| `pnpm rbuild` | 4.690 ± 0.047 | 4.631 | 4.754 | 1.00 |
+| `pnpm wbuild` | 15.656 ± 0.296 | 15.318 | 16.050 | 3.34 ± 0.07 |
+| `pnpm pbuild` | 72.585 ± 0.894 | 71.149 | 73.524 | 15.48 ± 0.25 |
 
 
 ### Mac
@@ -54,6 +56,8 @@ MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 | `pnpm pbuild` | 52.784 ± 1.059 | 51.292 | 54.811 | 12.21 ± 0.30 |
 
 <!---benchEnd-->
+	
+	
 	
 	
 	
