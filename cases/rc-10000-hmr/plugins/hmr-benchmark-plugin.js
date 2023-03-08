@@ -17,7 +17,6 @@ class HmrBenchmarkPlugin {
 			this.startTimeStampMap[this.buildId] = Date.now();
 		});
 		compiler.hooks.done.tap("HmrBenchmarkPlugin", (stats) => {
-			console.log('soemthing')
 			if (this.buildId > 0 && this.startTimeStampMap[this.buildId]) {
 				let now = Date.now();
 				let duration = now - this.startTimeStampMap[this.buildId];
@@ -26,14 +25,13 @@ class HmrBenchmarkPlugin {
 			}
 			if (Object.keys(this.durationsMap[this.currentCase.type]).length >= 10) {
 				this.currentCaseIndex++;
-				this.currentCase = this.options[this.currentCaseIndex];
-				this.durationsMap[this.currentCase.type] =  {};
 				if (this.currentCaseIndex >= this.options.cases.length) {
 					console.log(this.durationsMap);
 					process.exit(process.exitCode || 0);
 				}
+				this.currentCase = this.options.cases[this.currentCaseIndex];
+				this.durationsMap[this.currentCase.type] =  {};
 			}
-			console.log('update');
 			updateSomething(this.currentCase);
 		});
 	}

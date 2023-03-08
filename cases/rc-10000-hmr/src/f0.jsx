@@ -14,6 +14,7 @@ import Component__8 from './d0/f8.jsx'
   function Navbar({ show }) {
     return (
       <div>
+			9
       <Component__0/>
 <Component__1/>
 <Component__2/>
@@ -29,3 +30,5 @@ import Component__8 from './d0/f8.jsx'
   
   export default Navbar
   
+		
+		
