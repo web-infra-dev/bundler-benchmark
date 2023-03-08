@@ -1,11 +1,11 @@
-const ROOT_DIR = process.env.ROOT_DIR;
 const fs = require("fs");
 const path = require("path");
 class HmrBenchmarkPlugin {
 	constructor(options) {
 		this.options = options;
-		this.durationMap = {};
 		this.currentCaseIndex = 0;
+		this.currentCase = this.options.cases[this.currentCaseIndex];
+		this.durationsMap = { [this.currentCase.type]: {} };
 		// the key of map is the rebuild id, value is the start time stamp
 		this.startTimeStampMap = {};
 		this.buildId = -1;
@@ -16,25 +16,34 @@ class HmrBenchmarkPlugin {
 			this.buildId++;
 			this.startTimeStampMap[this.buildId] = Date.now();
 		});
-		compiler.hooks.done.tap("HmrBenchmarkPlugin", stats => {
+		compiler.hooks.done.tap("HmrBenchmarkPlugin", (stats) => {
+			console.log('soemthing')
 			if (this.buildId > 0 && this.startTimeStampMap[this.buildId]) {
 				let now = Date.now();
 				let duration = now - this.startTimeStampMap[this.buildId];
-				this.durationMap[this.buildId] = duration;
+				console.log(duration)
+				this.durationsMap[this.currentCase.type][this.buildId] = duration;
 			}
-			if (Object.keys(this.durationMap).length >= 10) {
-				process.exit(process.exitCode || 0);
+			if (Object.keys(this.durationsMap[this.currentCase.type]).length >= 10) {
+				this.currentCaseIndex++;
+				this.currentCase = this.options[this.currentCaseIndex];
+				this.durationsMap[this.currentCase.type] =  {};
+				if (this.currentCaseIndex >= this.options.cases.length) {
+					console.log(this.durationsMap);
+					process.exit(process.exitCode || 0);
+				}
 			}
-			updateSomething(path.resolve(__dirname, "../src/App.tsx"), this.options);
+			console.log('update');
+			updateSomething(this.currentCase);
 		});
 	}
 }
 
 module.exports = HmrBenchmarkPlugin;
 
-function updateSomething(filePath, options) {
-	let nextRenderedFile = options[filePath]();
-	fs.writeFileSync(filePath, nextRenderedFile);
+function updateSomething(testCase) {
+	let nextRenderedFile = testCase.generate();
+	fs.writeFileSync(testCase.path, nextRenderedFile);
 }
 
 function ConvertBenchmarkDataToBencherFormat(data) {

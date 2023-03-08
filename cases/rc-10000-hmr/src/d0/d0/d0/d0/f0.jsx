@@ -4,13 +4,9 @@
 
   
   function Navbar({ show }) {
-    useEffect(() => {
-      console.log(Date.now());
-    })
     return (
       <div>
       <span>      </span>
-      {Date.now()}
       </div>
     )
   }

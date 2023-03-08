@@ -11,7 +11,7 @@
     "build:bench": "hyperfine 'pnpm rbuild' 'pnpm wbuild' 'pnpm pbuild' --export-markdown ./test.md",
     "dev:bench": "hyperfine 'pnpm rdev' 'pnpm wdev' 'pnpm pdev' --export-markdown ./$BENCHMARK_PLATFORM-dev.md",
     "wserve": "NODE_ENV=development webpack serve -c webpack.config.js",
-    "rserve": "rspack serve -c rspack.config.js"
+    "rserve": "NODE_ENV=development rspack serve -c rspack.config.js"
   },
   "source": "src/index.js",
   "dependenciesDate": "2021-02-15",
