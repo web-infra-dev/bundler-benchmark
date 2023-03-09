@@ -43,17 +43,3 @@ function updateSomething(testCase) {
 	fs.writeFileSync(testCase.path, nextRenderedFile);
 }
 
-function ConvertBenchmarkDataToBencherFormat(data) {
-	let averageMs =
-		Object.keys(data).reduce((acc, key) => {
-			return data[key] + acc;
-		}, 0) / Object.keys(data).length;
-	let averageNs = averageMs * 1000000;
-	return `hmr_benchmark/react-refresh ... bench:   ${averageNs} ns/iter (+/- 0)`;
-}
-
-function appendToFile(outputPath, content) {
-	let previousOutputText = fs.readFileSync(outputPath, "utf8").trimEnd();
-	let outputText = `${previousOutputText}\n${content}`;
-	fs.writeFileSync(outputPath, outputText);
-}
