@@ -22,7 +22,7 @@ class HmrBenchmarkPlugin {
 				let duration = now - this.startTimeStampMap[this.buildId];
 				this.durationsMap[this.currentCase.type][this.buildId] = duration;
 			}
-			if (Object.keys(this.durationsMap[this.currentCase.type]).length >= 10) {
+			if (Object.keys(this.durationsMap[this.currentCase.type]).length >= 5) {
 				this.currentCaseIndex++;
 				if (this.currentCaseIndex >= this.options.cases.length) {
 					console.log(this.durationsMap);
