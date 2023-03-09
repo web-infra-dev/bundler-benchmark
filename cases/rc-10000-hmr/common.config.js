@@ -1,4 +1,12 @@
-
+const path = require("path");
+let index = 0;
+module.exports = {
+	cases: [
+		{
+			type: "root",
+			path: path.resolve(__dirname, "./src/f0.jsx"),
+			generate: () => {
+				return `
 import React from 'react'
 import Icon  from '@icon-park/react/es/all';
 
@@ -14,7 +22,7 @@ import Component__8 from './d0/f8.jsx'
 function Navbar({ show }) {
 return (
   <div>
-  9
+  ${index++}
   <Component__0/>
 <Component__1/>
 <Component__2/>
@@ -31,3 +39,36 @@ return (
 export default Navbar
 
 
+`;
+			},
+		},
+		{
+			type: "leaf",
+			path: path.resolve(__dirname, "src/d0/d0/d0/d0/f0.jsx"),
+			generate: () => {
+				return `
+
+import React, {useEffect} from 'react'
+import Icon  from '@icon-park/react/es/all';
+
+
+function Navbar({ show }) {
+useEffect(() => {
+  console.log(Date.now());
+})
+return (
+  <div>
+  <span>    ${index++}  </span>
+  {Date.now()}
+  </div>
+)
+}
+
+export default Navbar
+
+
+`;
+			},
+		},
+	],
+};

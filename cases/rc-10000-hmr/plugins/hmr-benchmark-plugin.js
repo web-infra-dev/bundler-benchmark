@@ -20,7 +20,6 @@ class HmrBenchmarkPlugin {
 			if (this.buildId > 0 && this.startTimeStampMap[this.buildId]) {
 				let now = Date.now();
 				let duration = now - this.startTimeStampMap[this.buildId];
-				console.log(duration)
 				this.durationsMap[this.currentCase.type][this.buildId] = duration;
 			}
 			if (Object.keys(this.durationsMap[this.currentCase.type]).length >= 10) {

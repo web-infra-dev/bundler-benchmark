@@ -3,6 +3,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 const path = require("path");
 const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const HmrBenchmarkPlugin = require('./plugins/hmr-benchmark-plugin');
 module.exports = {
 	entry: { main: "./index.jsx" },
 	devtool: isProd && "source-map",
@@ -48,6 +49,7 @@ module.exports = {
 	},
 	plugins: [
 		!isProd && new ReactRefreshWebpackPlugin(),
+		!isProd && new HmrBenchmarkPlugin(require('./common.config.js')),
 		new HtmlWebpackPlugin({
 			template: "./index.html",
 		}),
