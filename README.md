@@ -79,3 +79,8 @@ module.exports = {
 +}
 ```
 We have't replace the transformer because parcel has used swc internally to [speed up them transformation](https://parceljs.org/blog/beta3/)
+
+
+# Credits
+Thanks to:
+[@sokra](https://github.com/sokra) for the great work on the [webpack/benchmark](https://github.com/webpack/benchmark) project.
