@@ -44,7 +44,7 @@ MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 ### Linux 
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `pnpm rbuild` | 7.742 ± 0.051 | 7.678 | 7.835 | 1.00 |
+| `rspack` | 7.742 ± 0.051 | 7.678 | 7.835 | 1.00 |
 | `pnpm wbuild` | 22.077 ± 0.173 | 21.794 | 22.297 | 2.85 ± 0.03 |
 | `pnpm pbuild` | 15.971 ± 0.250 | 15.656 | 16.285 | 2.06 ± 0.04 |
 
@@ -52,7 +52,7 @@ MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 ### Mac
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `pnpm rbuild` | 7.552 ± 0.164 | 7.310 | 7.863 | 1.00 |
+| `rspack` | 7.552 ± 0.164 | 7.310 | 7.863 | 1.00 |
 | `pnpm wbuild` | 19.435 ± 0.534 | 18.760 | 20.196 | 2.57 ± 0.09 |
 | `pnpm pbuild` | 15.525 ± 0.441 | 14.954 | 16.122 | 2.06 ± 0.07 |
 
