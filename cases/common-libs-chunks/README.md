@@ -10,13 +10,14 @@
 
 
 
+
+
+
 <!---benchStart-->
 # Benchmark environment
 
 ## Linux
 Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz 32Core, 64GB of RAM
-## Mac
-MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 
 # Benchmark result
 
@@ -30,14 +31,6 @@ MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 | `parcel` | 19.094 ± 0.182 | 18.868 | 19.394 | 9.99 ± 0.25 |
 
 
-### Mac
-| Command | Mean [s] | Min [s] | Max [s] | Relative |
-|:---|---:|---:|---:|---:|
-| `rspack` | 3.764 ± 0.183 | 3.500 | 4.076 | 1.00 |
-| `webpack` | 10.493 ± 0.825 | 9.914 | 12.573 | 2.79 ± 0.26 |
-| `parcel` | 21.725 ± 1.554 | 20.694 | 25.937 | 5.77 ± 0.50 |
-
-
 ## Production
 
 ### Linux 
@@ -48,14 +41,10 @@ MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 | `pnpm pbuild` | 55.907 ± 0.691 | 54.403 | 56.978 | 13.97 ± 0.54 |
 
 
-### Mac
-| Command | Mean [s] | Min [s] | Max [s] | Relative |
-|:---|---:|---:|---:|---:|
-| `rspack` | 5.148 ± 0.075 | 5.049 | 5.277 | 1.00 |
-| `pnpm wbuild` | 16.072 ± 0.636 | 15.571 | 17.221 | 3.12 ± 0.13 |
-| `pnpm pbuild` | 61.501 ± 2.395 | 58.912 | 65.573 | 11.95 ± 0.50 |
-
 <!---benchEnd-->
+	
+	
+	
 	
 	
 	

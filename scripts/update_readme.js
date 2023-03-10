@@ -24,13 +24,9 @@ for (let benchCase of casesList) {
 function benchBlockGenerator(casePath) {
 	const linuxDevMarkdownPath = "linux-dev.md";
 	const linuxBuildMarkdownPath = "linux-build.md";
-	const macBuildMarkdownPath = "mac-i7-build.md";
-	const macDevMarkdownPath = "mac-i7-dev.md";
 
 	let linuxBuildMarkdownContent = "";
 	let linuxDevMarkdownContent = "";
-	let macBuildMarkdownContent = "";
-	let macDevMarkdownContent = "";
 	try {
 		linuxBuildMarkdownContent = fs.readFileSync(
 			path.resolve(casePath, linuxBuildMarkdownPath),
@@ -44,14 +40,6 @@ function benchBlockGenerator(casePath) {
 		);
 	} catch {}
 	try {
-		macBuildMarkdownContent = fs.readFileSync(
-			path.resolve(casePath, macBuildMarkdownPath),
-			"utf-8"
-		);
-	} catch (err) {
-		console.error(err);
-	}
-	try {
 		macDevMarkdownContent = fs.readFileSync(
 			path.resolve(casePath, macDevMarkdownPath),
 			"utf-8"
@@ -64,8 +52,6 @@ function benchBlockGenerator(casePath) {
 
 ## Linux
 Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz 32Core, 64GB of RAM
-## Mac
-MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 
 # Benchmark result
 
@@ -74,17 +60,14 @@ MacBookPro 2.6 GHz 6-Core Intel Core i7, 16GB of RAM
 ### Linux 
 ${linuxDevMarkdownContent}
 
-### Mac
-${macDevMarkdownContent}
-
 ## Production
 
 ### Linux 
 ${linuxBuildMarkdownContent}
 
-### Mac
-${macBuildMarkdownContent}
 <!---benchEnd-->
 	`;
+
+	// template.replace('``').replace();
 	return template;
 }
