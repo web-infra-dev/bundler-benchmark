@@ -55,6 +55,12 @@ pnpm run dev:bench
 pnpm run build:bench
 cd ..
 
+cd rc-10000-hmr
+echo "rc-10000-hmr"
+pnpm run dev:bench
+pnpm run build:bench
+cd ..
+
 cd rome
 echo "rome"
 pnpm bench:setup
